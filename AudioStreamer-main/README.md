@@ -46,3 +46,58 @@ Usage
 Both the client and server scripts accept command-line arguments to specify the protocol (--protocol with options udp or tcp).
 The server must be started before the client and set to listen on a specific port.
 The client then connects to the server's IP address and port, beginning the audio stream.
+
+
+
+
+
+###
+# Cara Menjalankan Program (Client & Server)
+
+ ## 1. Jalankan Server
+Buka terminal pertama
+
+Jalankan server dengan protokol UDP atau TCP
+
+bash
+Copy
+Edit
+
+``` Bash
+python server.py --protocol udp --port 12345
+```
+
+atau untuk TCP:
+
+bash
+Copy
+Edit
+``` Bash
+python server.py --protocol tcp --port 12345
+```
+
+
+✅ Server akan berjalan dan menunggu koneksi dari client.
+
+
+3️⃣ Jalankan Client
+Buka terminal kedua
+
+Jalankan client dengan alamat server (default: localhost)
+
+bash
+Copy
+Edit
+
+``` Bash
+python client.py --protocol udp --host 127.0.0.1 --port 12345 --size 20
+```
+atau untuk TCP:
+
+bash
+Copy
+Edit
+``` Bash
+python client.py --protocol tcp --host 127.0.0.1 --port 12345 --size 20
+```
+✅ Client akan mulai mengirimkan audio ke server.
