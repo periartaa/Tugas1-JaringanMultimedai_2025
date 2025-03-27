@@ -554,3 +554,429 @@
 2025-03-27 21:36:57,923 - INFO - Exiting the program
 2025-03-27 21:36:57,923 - INFO - Received Sequence #191 (884 bytes)
 2025-03-27 21:36:57,925 - INFO - Expecting Sequence #192
+2025-03-27 21:37:59,587 - INFO - Server started with Protocol: UDP, Port: 12345, Size: 10 ms
+2025-03-27 21:38:00,123 - INFO - PyAudio Device Initialized
+2025-03-27 21:38:00,130 - INFO - Expecting Sequence #0
+2025-03-27 21:38:00,415 - INFO - Client started with Protocol: UDP, Host: localhost, Port: 12345, Size: 10 ms
+2025-03-27 21:38:00,735 - INFO - PyAudio Device Initialized
+2025-03-27 21:38:00,768 - INFO - Sending Sequence #0 (884 bytes)
+2025-03-27 21:38:00,781 - INFO - Sending Sequence #1 (884 bytes)
+2025-03-27 21:38:00,781 - INFO - Received Sequence #0 (884 bytes)
+2025-03-27 21:38:00,781 - INFO - Expecting Sequence #1
+2025-03-27 21:38:00,781 - INFO - Received Sequence #1 (884 bytes)
+2025-03-27 21:38:00,781 - INFO - Expecting Sequence #2
+2025-03-27 21:38:00,789 - INFO - Sending Sequence #2 (884 bytes)
+2025-03-27 21:38:00,791 - INFO - Sending Sequence #3 (884 bytes)
+2025-03-27 21:38:00,791 - INFO - Received Sequence #2 (884 bytes)
+2025-03-27 21:38:00,791 - INFO - Expecting Sequence #3
+2025-03-27 21:38:00,793 - INFO - Received Sequence #3 (884 bytes)
+2025-03-27 21:38:00,793 - INFO - Expecting Sequence #4
+2025-03-27 21:38:00,804 - INFO - Sending Sequence #4 (884 bytes)
+2025-03-27 21:38:00,811 - INFO - Received Sequence #4 (884 bytes)
+2025-03-27 21:38:00,811 - INFO - Sending Sequence #5 (884 bytes)
+2025-03-27 21:38:00,812 - INFO - Expecting Sequence #5
+2025-03-27 21:38:00,812 - INFO - Received Sequence #5 (884 bytes)
+2025-03-27 21:38:00,812 - INFO - Expecting Sequence #6
+2025-03-27 21:38:00,829 - INFO - Sending Sequence #6 (884 bytes)
+2025-03-27 21:38:00,832 - INFO - Received Sequence #6 (884 bytes)
+2025-03-27 21:38:00,832 - INFO - Expecting Sequence #7
+2025-03-27 21:38:00,834 - INFO - Received Sequence #7 (884 bytes)
+2025-03-27 21:38:00,834 - INFO - Expecting Sequence #8
+2025-03-27 21:38:00,843 - INFO - Sending Sequence #8 (884 bytes)
+2025-03-27 21:38:00,851 - INFO - Received Sequence #8 (884 bytes)
+2025-03-27 21:38:00,851 - INFO - Expecting Sequence #9
+2025-03-27 21:38:00,852 - INFO - Received Sequence #9 (884 bytes)
+2025-03-27 21:38:00,854 - INFO - Expecting Sequence #10
+2025-03-27 21:38:00,867 - INFO - Sending Sequence #10 (884 bytes)
+2025-03-27 21:38:00,867 - INFO - Sending Sequence #11 (884 bytes)
+2025-03-27 21:38:00,867 - INFO - Received Sequence #10 (884 bytes)
+2025-03-27 21:38:00,867 - INFO - Expecting Sequence #11
+2025-03-27 21:38:00,872 - INFO - Received Sequence #11 (884 bytes)
+2025-03-27 21:38:00,872 - INFO - Expecting Sequence #12
+2025-03-27 21:38:00,882 - INFO - Sending Sequence #12 (884 bytes)
+2025-03-27 21:38:00,891 - INFO - Sending Sequence #13 (884 bytes)
+
+2025-03-27 21:38:00,892 - INFO - Expecting Sequence #13
+2025-03-27 21:38:00,892 - INFO - Received Sequence #13 (884 bytes)
+2025-03-27 21:38:00,892 - INFO - Expecting Sequence #14
+2025-03-27 21:38:00,892 - INFO - Sending Sequence #14 (884 bytes)
+2025-03-27 21:38:00,892 - INFO - Sending Sequence #15 (884 bytes)
+2025-03-27 21:38:00,892 - INFO - Received Sequence #14 (884 bytes)
+2025-03-27 21:38:00,892 - INFO - Expecting Sequence #15
+2025-03-27 21:38:00,892 - INFO - Received Sequence #15 (884 bytes)
+2025-03-27 21:38:00,892 - INFO - Expecting Sequence #16
+2025-03-27 21:38:00,925 - INFO - Sending Sequence #16 (884 bytes)
+2025-03-27 21:38:00,925 - INFO - Received Sequence #16 (884 bytes)
+2025-03-27 21:38:00,925 - INFO - Sending Sequence #17 (884 bytes)
+2025-03-27 21:38:00,925 - INFO - Expecting Sequence #17
+2025-03-27 21:38:00,925 - INFO - Received Sequence #17 (884 bytes)
+2025-03-27 21:38:00,925 - INFO - Expecting Sequence #18
+2025-03-27 21:38:00,945 - INFO - Sending Sequence #18 (884 bytes)
+2025-03-27 21:38:00,945 - INFO - Received Sequence #18 (884 bytes)
+2025-03-27 21:38:00,945 - INFO - Expecting Sequence #19
+2025-03-27 21:38:00,945 - INFO - Received Sequence #19 (884 bytes)
+2025-03-27 21:38:00,945 - INFO - Expecting Sequence #20
+2025-03-27 21:38:00,965 - INFO - Sending Sequence #20 (884 bytes)
+2025-03-27 21:38:00,965 - INFO - Sending Sequence #21 (884 bytes)
+2025-03-27 21:38:00,965 - INFO - Received Sequence #20 (884 bytes)
+2025-03-27 21:38:00,965 - INFO - Expecting Sequence #21
+2025-03-27 21:38:00,965 - INFO - Received Sequence #21 (884 bytes)
+2025-03-27 21:38:00,965 - INFO - Expecting Sequence #22
+2025-03-27 21:38:00,983 - INFO - Sending Sequence #22 (884 bytes)
+2025-03-27 21:38:00,983 - INFO - Sending Sequence #23 (884 bytes)
+2025-03-27 21:38:00,983 - INFO - Received Sequence #22 (884 bytes)
+2025-03-27 21:38:00,983 - INFO - Expecting Sequence #23
+2025-03-27 21:38:00,983 - INFO - Received Sequence #23 (884 bytes)
+2025-03-27 21:38:00,983 - INFO - Expecting Sequence #24
+2025-03-27 21:38:01,001 - INFO - Sending Sequence #24 (884 bytes)
+2025-03-27 21:38:01,011 - INFO - Sending Sequence #25 (884 bytes)
+2025-03-27 21:38:01,011 - INFO - Received Sequence #24 (884 bytes)
+2025-03-27 21:38:01,011 - INFO - Expecting Sequence #25
+2025-03-27 21:38:01,011 - INFO - Received Sequence #25 (884 bytes)
+2025-03-27 21:38:01,014 - INFO - Expecting Sequence #26
+2025-03-27 21:38:01,026 - INFO - Sending Sequence #26 (884 bytes)
+2025-03-27 21:38:01,026 - INFO - Sending Sequence #27 (884 bytes)
+
+2025-03-27 21:38:01,026 - INFO - Expecting Sequence #27
+2025-03-27 21:38:01,034 - INFO - Received Sequence #27 (884 bytes)
+2025-03-27 21:38:01,034 - INFO - Expecting Sequence #28
+2025-03-27 21:38:01,035 - INFO - Sending Sequence #28 (884 bytes)
+2025-03-27 21:38:01,051 - INFO - Sending Sequence #29 (884 bytes)
+2025-03-27 21:38:01,051 - INFO - Received Sequence #28 (884 bytes)
+2025-03-27 21:38:01,051 - INFO - Expecting Sequence #29
+2025-03-27 21:38:01,051 - INFO - Received Sequence #29 (884 bytes)
+2025-03-27 21:38:01,051 - INFO - Expecting Sequence #30
+2025-03-27 21:38:01,066 - INFO - Sending Sequence #30 (884 bytes)
+2025-03-27 21:38:01,066 - INFO - Sending Sequence #31 (884 bytes)
+2025-03-27 21:38:01,066 - INFO - Received Sequence #30 (884 bytes)
+2025-03-27 21:38:01,072 - INFO - Expecting Sequence #31
+2025-03-27 21:38:01,073 - INFO - Received Sequence #31 (884 bytes)
+2025-03-27 21:38:01,074 - INFO - Expecting Sequence #32
+2025-03-27 21:38:01,086 - INFO - Sending Sequence #32 (884 bytes)
+2025-03-27 21:38:01,086 - INFO - Sending Sequence #33 (884 bytes)
+2025-03-27 21:38:01,086 - INFO - Received Sequence #32 (884 bytes)
+2025-03-27 21:38:01,086 - INFO - Expecting Sequence #33
+2025-03-27 21:38:01,086 - INFO - Received Sequence #33 (884 bytes)
+2025-03-27 21:38:01,086 - INFO - Expecting Sequence #34
+2025-03-27 21:38:01,106 - INFO - Sending Sequence #34 (884 bytes)
+2025-03-27 21:38:01,106 - INFO - Sending Sequence #35 (884 bytes)
+2025-03-27 21:38:01,106 - INFO - Received Sequence #34 (884 bytes)
+2025-03-27 21:38:01,106 - INFO - Expecting Sequence #35
+2025-03-27 21:38:01,106 - INFO - Received Sequence #35 (884 bytes)
+2025-03-27 21:38:01,106 - INFO - Expecting Sequence #36
+2025-03-27 21:38:01,126 - INFO - Sending Sequence #36 (884 bytes)
+2025-03-27 21:38:01,126 - INFO - Sending Sequence #37 (884 bytes)
+2025-03-27 21:38:01,126 - INFO - Received Sequence #36 (884 bytes)
+2025-03-27 21:38:01,126 - INFO - Expecting Sequence #37
+2025-03-27 21:38:01,126 - INFO - Received Sequence #37 (884 bytes)
+2025-03-27 21:38:01,126 - INFO - Expecting Sequence #38
+2025-03-27 21:38:01,146 - INFO - Sending Sequence #38 (884 bytes)
+2025-03-27 21:38:01,150 - INFO - Sending Sequence #39 (884 bytes)
+2025-03-27 21:38:01,150 - INFO - Received Sequence #38 (884 bytes)
+2025-03-27 21:38:01,152 - INFO - Expecting Sequence #39
+2025-03-27 21:38:01,152 - INFO - Received Sequence #39 (884 bytes)
+2025-03-27 21:38:01,154 - INFO - Expecting Sequence #40
+2025-03-27 21:38:01,165 - INFO - Sending Sequence #40 (884 bytes)
+2025-03-27 21:38:01,165 - INFO - Sending Sequence #41 (884 bytes)
+2025-03-27 21:38:01,165 - INFO - Received Sequence #40 (884 bytes)
+2025-03-27 21:38:01,165 - INFO - Expecting Sequence #41
+2025-03-27 21:38:01,165 - INFO - Received Sequence #41 (884 bytes)
+2025-03-27 21:38:01,165 - INFO - Expecting Sequence #42
+2025-03-27 21:38:01,185 - INFO - Sending Sequence #42 (884 bytes)
+2025-03-27 21:38:01,185 - INFO - Sending Sequence #43 (884 bytes)
+2025-03-27 21:38:01,185 - INFO - Received Sequence #42 (884 bytes)
+2025-03-27 21:38:01,185 - INFO - Expecting Sequence #43
+2025-03-27 21:38:01,185 - INFO - Received Sequence #43 (884 bytes)
+2025-03-27 21:38:01,185 - INFO - Expecting Sequence #44
+2025-03-27 21:38:01,201 - INFO - Sending Sequence #44 (884 bytes)
+2025-03-27 21:38:01,201 - INFO - Sending Sequence #45 (884 bytes)
+2025-03-27 21:38:01,201 - INFO - Received Sequence #44 (884 bytes)
+2025-03-27 21:38:01,201 - INFO - Expecting Sequence #45
+2025-03-27 21:38:01,201 - INFO - Received Sequence #45 (884 bytes)
+2025-03-27 21:38:01,201 - INFO - Expecting Sequence #46
+2025-03-27 21:38:01,226 - INFO - Sending Sequence #46 (884 bytes)
+2025-03-27 21:38:01,226 - INFO - Sending Sequence #47 (884 bytes)
+
+2025-03-27 21:38:01,226 - INFO - Expecting Sequence #47
+2025-03-27 21:38:01,226 - INFO - Received Sequence #47 (884 bytes)
+2025-03-27 21:38:01,235 - INFO - Expecting Sequence #48
+2025-03-27 21:38:01,249 - INFO - Sending Sequence #48 (884 bytes)
+2025-03-27 21:38:01,252 - INFO - Sending Sequence #49 (884 bytes)
+
+2025-03-27 21:38:01,253 - INFO - Expecting Sequence #49
+2025-03-27 21:38:01,253 - INFO - Received Sequence #49 (884 bytes)
+2025-03-27 21:38:01,253 - INFO - Expecting Sequence #50
+2025-03-27 21:38:01,268 - INFO - Sending Sequence #50 (884 bytes)
+2025-03-27 21:38:01,271 - INFO - Sending Sequence #51 (884 bytes)
+
+2025-03-27 21:38:01,271 - INFO - Expecting Sequence #51
+2025-03-27 21:38:01,271 - INFO - Received Sequence #51 (884 bytes)
+2025-03-27 21:38:01,271 - INFO - Expecting Sequence #52
+2025-03-27 21:38:01,285 - INFO - Sending Sequence #52 (884 bytes)
+2025-03-27 21:38:01,285 - INFO - Sending Sequence #53 (884 bytes)
+2025-03-27 21:38:01,285 - INFO - Received Sequence #52 (884 bytes)
+2025-03-27 21:38:01,285 - INFO - Expecting Sequence #53
+2025-03-27 21:38:01,285 - INFO - Received Sequence #53 (884 bytes)
+2025-03-27 21:38:01,285 - INFO - Expecting Sequence #54
+2025-03-27 21:38:01,312 - INFO - Sending Sequence #54 (884 bytes)
+2025-03-27 21:38:01,328 - INFO - Received Sequence #54 (884 bytes)
+2025-03-27 21:38:01,330 - INFO - Sending Sequence #55 (884 bytes)
+2025-03-27 21:38:01,332 - INFO - Expecting Sequence #55
+2025-03-27 21:38:01,334 - INFO - Sending Sequence #56 (884 bytes)
+2025-03-27 21:38:01,334 - INFO - Received Sequence #55 (884 bytes)
+2025-03-27 21:38:01,336 - INFO - Expecting Sequence #56
+2025-03-27 21:38:01,337 - INFO - Sending Sequence #57 (884 bytes)
+
+2025-03-27 21:38:01,337 - INFO - Expecting Sequence #57
+2025-03-27 21:38:01,339 - INFO - Received Sequence #57 (884 bytes)
+2025-03-27 21:38:01,339 - INFO - Expecting Sequence #58
+2025-03-27 21:38:01,347 - INFO - Sending Sequence #58 (884 bytes)
+2025-03-27 21:38:01,352 - INFO - Sending Sequence #59 (884 bytes)
+
+2025-03-27 21:38:01,352 - INFO - Expecting Sequence #59
+2025-03-27 21:38:01,353 - INFO - Received Sequence #59 (884 bytes)
+2025-03-27 21:38:01,353 - INFO - Expecting Sequence #60
+2025-03-27 21:38:01,366 - INFO - Sending Sequence #60 (884 bytes)
+2025-03-27 21:38:01,372 - INFO - Sending Sequence #61 (884 bytes)
+2025-03-27 21:38:01,372 - INFO - Received Sequence #60 (884 bytes)
+2025-03-27 21:38:01,372 - INFO - Expecting Sequence #61
+2025-03-27 21:38:01,372 - INFO - Received Sequence #61 (884 bytes)
+2025-03-27 21:38:01,372 - INFO - Expecting Sequence #62
+2025-03-27 21:38:01,388 - INFO - Sending Sequence #62 (884 bytes)
+2025-03-27 21:38:01,391 - INFO - Sending Sequence #63 (884 bytes)
+2025-03-27 21:38:01,391 - INFO - Received Sequence #62 (884 bytes)
+2025-03-27 21:38:01,392 - INFO - Expecting Sequence #63
+2025-03-27 21:38:01,392 - INFO - Received Sequence #63 (884 bytes)
+2025-03-27 21:38:01,393 - INFO - Expecting Sequence #64
+2025-03-27 21:38:01,409 - INFO - Sending Sequence #64 (884 bytes)
+2025-03-27 21:38:01,409 - INFO - Sending Sequence #65 (884 bytes)
+2025-03-27 21:38:01,409 - INFO - Received Sequence #64 (884 bytes)
+2025-03-27 21:38:01,413 - INFO - Expecting Sequence #65
+2025-03-27 21:38:01,414 - INFO - Received Sequence #65 (884 bytes)
+2025-03-27 21:38:01,414 - INFO - Expecting Sequence #66
+2025-03-27 21:38:01,417 - INFO - Sending Sequence #66 (884 bytes)
+2025-03-27 21:38:01,417 - INFO - Received Sequence #66 (884 bytes)
+2025-03-27 21:38:01,417 - INFO - Sending Sequence #67 (884 bytes)
+2025-03-27 21:38:01,433 - INFO - Expecting Sequence #67
+2025-03-27 21:38:01,435 - INFO - Received Sequence #67 (884 bytes)
+2025-03-27 21:38:01,437 - INFO - Expecting Sequence #68
+2025-03-27 21:38:01,450 - INFO - Sending Sequence #68 (884 bytes)
+2025-03-27 21:38:01,452 - INFO - Received Sequence #68 (884 bytes)
+2025-03-27 21:38:01,452 - INFO - Expecting Sequence #69
+2025-03-27 21:38:01,452 - INFO - Received Sequence #69 (884 bytes)
+2025-03-27 21:38:01,452 - INFO - Expecting Sequence #70
+2025-03-27 21:38:01,464 - INFO - Sending Sequence #70 (884 bytes)
+2025-03-27 21:38:01,472 - INFO - Sending Sequence #71 (884 bytes)
+2025-03-27 21:38:01,472 - INFO - Received Sequence #70 (884 bytes)
+2025-03-27 21:38:01,472 - INFO - Expecting Sequence #71
+2025-03-27 21:38:01,473 - INFO - Received Sequence #71 (884 bytes)
+2025-03-27 21:38:01,473 - INFO - Expecting Sequence #72
+2025-03-27 21:38:01,473 - INFO - Sending Sequence #72 (884 bytes)
+2025-03-27 21:38:01,473 - INFO - Sending Sequence #73 (884 bytes)
+2025-03-27 21:38:01,473 - INFO - Received Sequence #72 (884 bytes)
+2025-03-27 21:38:01,473 - INFO - Expecting Sequence #73
+2025-03-27 21:38:01,473 - INFO - Received Sequence #73 (884 bytes)
+2025-03-27 21:38:01,473 - INFO - Expecting Sequence #74
+2025-03-27 21:38:01,509 - INFO - Sending Sequence #74 (884 bytes)
+2025-03-27 21:38:01,512 - INFO - Sending Sequence #75 (884 bytes)
+2025-03-27 21:38:01,512 - INFO - Received Sequence #74 (884 bytes)
+2025-03-27 21:38:01,512 - INFO - Expecting Sequence #75
+2025-03-27 21:38:01,512 - INFO - Received Sequence #75 (884 bytes)
+2025-03-27 21:38:01,515 - INFO - Expecting Sequence #76
+2025-03-27 21:38:01,528 - INFO - Sending Sequence #76 (884 bytes)
+2025-03-27 21:38:01,532 - INFO - Sending Sequence #77 (884 bytes)
+
+2025-03-27 21:38:01,533 - INFO - Expecting Sequence #77
+2025-03-27 21:38:01,534 - INFO - Received Sequence #77 (884 bytes)
+2025-03-27 21:38:01,534 - INFO - Expecting Sequence #78
+2025-03-27 21:38:01,534 - INFO - Sending Sequence #78 (884 bytes)
+2025-03-27 21:38:01,534 - INFO - Sending Sequence #79 (884 bytes)
+2025-03-27 21:38:01,534 - INFO - Received Sequence #78 (884 bytes)
+2025-03-27 21:38:01,534 - INFO - Expecting Sequence #79
+2025-03-27 21:38:01,534 - INFO - Received Sequence #79 (884 bytes)
+2025-03-27 21:38:01,534 - INFO - Expecting Sequence #80
+2025-03-27 21:38:01,570 - INFO - Sending Sequence #80 (884 bytes)
+2025-03-27 21:38:01,572 - INFO - Sending Sequence #81 (884 bytes)
+2025-03-27 21:38:01,572 - INFO - Received Sequence #80 (884 bytes)
+2025-03-27 21:38:01,573 - INFO - Expecting Sequence #81
+2025-03-27 21:38:01,573 - INFO - Received Sequence #81 (884 bytes)
+2025-03-27 21:38:01,573 - INFO - Expecting Sequence #82
+2025-03-27 21:38:01,573 - INFO - Sending Sequence #82 (884 bytes)
+2025-03-27 21:38:01,573 - INFO - Sending Sequence #83 (884 bytes)
+2025-03-27 21:38:01,573 - INFO - Received Sequence #82 (884 bytes)
+2025-03-27 21:38:01,573 - INFO - Expecting Sequence #83
+2025-03-27 21:38:01,573 - INFO - Received Sequence #83 (884 bytes)
+2025-03-27 21:38:01,573 - INFO - Expecting Sequence #84
+2025-03-27 21:38:01,597 - INFO - Sending Sequence #84 (884 bytes)
+2025-03-27 21:38:01,612 - INFO - Sending Sequence #85 (884 bytes)
+2025-03-27 21:38:01,612 - INFO - Received Sequence #84 (884 bytes)
+2025-03-27 21:38:01,612 - INFO - Expecting Sequence #85
+2025-03-27 21:38:01,613 - INFO - Received Sequence #85 (884 bytes)
+2025-03-27 21:38:01,615 - INFO - Expecting Sequence #86
+2025-03-27 21:38:01,617 - INFO - Sending Sequence #86 (884 bytes)
+2025-03-27 21:38:01,634 - INFO - Sending Sequence #87 (884 bytes)
+
+2025-03-27 21:38:01,634 - INFO - Expecting Sequence #87
+2025-03-27 21:38:01,634 - INFO - Received Sequence #87 (884 bytes)
+2025-03-27 21:38:01,634 - INFO - Expecting Sequence #88
+2025-03-27 21:38:01,634 - INFO - Sending Sequence #88 (884 bytes)
+2025-03-27 21:38:01,634 - INFO - Received Sequence #88 (884 bytes)
+2025-03-27 21:38:01,634 - INFO - Expecting Sequence #89
+2025-03-27 21:38:01,634 - INFO - Received Sequence #89 (884 bytes)
+2025-03-27 21:38:01,634 - INFO - Expecting Sequence #90
+2025-03-27 21:38:01,664 - INFO - Sending Sequence #90 (884 bytes)
+2025-03-27 21:38:01,672 - INFO - Received Sequence #90 (884 bytes)
+2025-03-27 21:38:01,672 - INFO - Sending Sequence #91 (884 bytes)
+2025-03-27 21:38:01,673 - INFO - Expecting Sequence #91
+2025-03-27 21:38:01,674 - INFO - Received Sequence #91 (884 bytes)
+2025-03-27 21:38:01,674 - INFO - Expecting Sequence #92
+2025-03-27 21:38:01,676 - INFO - Sending Sequence #92 (884 bytes)
+2025-03-27 21:38:01,676 - INFO - Received Sequence #92 (884 bytes)
+2025-03-27 21:38:01,694 - INFO - Expecting Sequence #93
+2025-03-27 21:38:01,695 - INFO - Received Sequence #93 (884 bytes)
+2025-03-27 21:38:01,696 - INFO - Expecting Sequence #94
+2025-03-27 21:38:01,696 - INFO - Sending Sequence #94 (884 bytes)
+2025-03-27 21:38:01,696 - INFO - Received Sequence #94 (884 bytes)
+2025-03-27 21:38:01,696 - INFO - Expecting Sequence #95
+2025-03-27 21:38:01,715 - INFO - Received Sequence #95 (884 bytes)
+2025-03-27 21:38:01,715 - INFO - Expecting Sequence #96
+2025-03-27 21:38:01,730 - INFO - Sending Sequence #96 (884 bytes)
+2025-03-27 21:38:01,734 - INFO - Received Sequence #96 (884 bytes)
+2025-03-27 21:38:01,734 - INFO - Expecting Sequence #97
+2025-03-27 21:38:01,734 - INFO - Received Sequence #97 (884 bytes)
+2025-03-27 21:38:01,734 - INFO - Expecting Sequence #98
+2025-03-27 21:38:01,734 - INFO - Sending Sequence #98 (884 bytes)
+2025-03-27 21:38:01,734 - INFO - Received Sequence #98 (884 bytes)
+2025-03-27 21:38:01,734 - INFO - Expecting Sequence #99
+2025-03-27 21:38:01,757 - INFO - Received Sequence #99 (884 bytes)
+2025-03-27 21:38:01,757 - INFO - Expecting Sequence #100
+2025-03-27 21:38:01,766 - INFO - Sending Sequence #100 (884 bytes)
+2025-03-27 21:38:01,766 - INFO - Sending Sequence #101 (884 bytes)
+2025-03-27 21:38:01,766 - INFO - Received Sequence #100 (884 bytes)
+2025-03-27 21:38:01,766 - INFO - Expecting Sequence #101
+2025-03-27 21:38:01,776 - INFO - Received Sequence #101 (884 bytes)
+2025-03-27 21:38:01,776 - INFO - Expecting Sequence #102
+2025-03-27 21:38:01,776 - INFO - Sending Sequence #102 (884 bytes)
+2025-03-27 21:38:01,776 - INFO - Sending Sequence #103 (884 bytes)
+2025-03-27 21:38:01,776 - INFO - Received Sequence #102 (884 bytes)
+2025-03-27 21:38:01,776 - INFO - Expecting Sequence #103
+2025-03-27 21:38:01,776 - INFO - Received Sequence #103 (884 bytes)
+2025-03-27 21:38:01,776 - INFO - Expecting Sequence #104
+2025-03-27 21:38:01,811 - INFO - Sending Sequence #104 (884 bytes)
+2025-03-27 21:38:01,812 - INFO - Received Sequence #104 (884 bytes)
+2025-03-27 21:38:01,815 - INFO - Expecting Sequence #105
+2025-03-27 21:38:01,817 - INFO - Received Sequence #105 (884 bytes)
+2025-03-27 21:38:01,818 - INFO - Expecting Sequence #106
+2025-03-27 21:38:01,830 - INFO - Sending Sequence #106 (884 bytes)
+2025-03-27 21:38:01,834 - INFO - Received Sequence #106 (884 bytes)
+2025-03-27 21:38:01,834 - INFO - Expecting Sequence #107
+2025-03-27 21:38:01,838 - INFO - Received Sequence #107 (884 bytes)
+2025-03-27 21:38:01,838 - INFO - Expecting Sequence #108
+2025-03-27 21:38:01,851 - INFO - Sending Sequence #108 (884 bytes)
+2025-03-27 21:38:01,854 - INFO - Received Sequence #108 (884 bytes)
+2025-03-27 21:38:01,854 - INFO - Expecting Sequence #109
+2025-03-27 21:38:01,856 - INFO - Received Sequence #109 (884 bytes)
+2025-03-27 21:38:01,858 - INFO - Expecting Sequence #110
+2025-03-27 21:38:01,870 - INFO - Sending Sequence #110 (884 bytes)
+2025-03-27 21:38:01,872 - INFO - Received Sequence #110 (884 bytes)
+2025-03-27 21:38:01,874 - INFO - Expecting Sequence #111
+2025-03-27 21:38:01,874 - INFO - Received Sequence #111 (884 bytes)
+2025-03-27 21:38:01,877 - INFO - Expecting Sequence #112
+2025-03-27 21:38:01,890 - INFO - Sending Sequence #112 (884 bytes)
+2025-03-27 21:38:01,892 - INFO - Sending Sequence #113 (884 bytes)
+2025-03-27 21:38:01,892 - INFO - Received Sequence #112 (884 bytes)
+2025-03-27 21:38:01,894 - INFO - Expecting Sequence #113
+2025-03-27 21:38:01,896 - INFO - Received Sequence #113 (884 bytes)
+2025-03-27 21:38:01,896 - INFO - Expecting Sequence #114
+2025-03-27 21:38:01,910 - INFO - Sending Sequence #114 (884 bytes)
+2025-03-27 21:38:01,912 - INFO - Sending Sequence #115 (884 bytes)
+2025-03-27 21:38:01,912 - INFO - Received Sequence #114 (884 bytes)
+2025-03-27 21:38:01,912 - INFO - Expecting Sequence #115
+2025-03-27 21:38:01,917 - INFO - Received Sequence #115 (884 bytes)
+2025-03-27 21:38:01,919 - INFO - Expecting Sequence #116
+2025-03-27 21:38:01,927 - INFO - Sending Sequence #116 (884 bytes)
+2025-03-27 21:38:01,927 - INFO - Received Sequence #116 (884 bytes)
+2025-03-27 21:38:01,927 - INFO - Sending Sequence #117 (884 bytes)
+2025-03-27 21:38:01,927 - INFO - Expecting Sequence #117
+2025-03-27 21:38:01,927 - INFO - Received Sequence #117 (884 bytes)
+2025-03-27 21:38:01,927 - INFO - Expecting Sequence #118
+2025-03-27 21:38:01,947 - INFO - Sending Sequence #118 (884 bytes)
+2025-03-27 21:38:01,947 - INFO - Received Sequence #118 (884 bytes)
+2025-03-27 21:38:01,947 - INFO - Expecting Sequence #119
+2025-03-27 21:38:01,947 - INFO - Received Sequence #119 (884 bytes)
+2025-03-27 21:38:01,947 - INFO - Expecting Sequence #120
+2025-03-27 21:38:01,970 - INFO - Sending Sequence #120 (884 bytes)
+2025-03-27 21:38:01,972 - INFO - Sending Sequence #121 (884 bytes)
+
+2025-03-27 21:38:01,972 - INFO - Expecting Sequence #121
+2025-03-27 21:38:01,972 - INFO - Received Sequence #121 (884 bytes)
+2025-03-27 21:38:01,972 - INFO - Expecting Sequence #122
+2025-03-27 21:38:01,986 - INFO - Sending Sequence #122 (884 bytes)
+2025-03-27 21:38:01,986 - INFO - Sending Sequence #123 (884 bytes)
+2025-03-27 21:38:01,986 - INFO - Received Sequence #122 (884 bytes)
+2025-03-27 21:38:01,986 - INFO - Expecting Sequence #123
+2025-03-27 21:38:01,996 - INFO - Received Sequence #123 (884 bytes)
+2025-03-27 21:38:01,997 - INFO - Expecting Sequence #124
+2025-03-27 21:38:02,009 - INFO - Sending Sequence #124 (884 bytes)
+2025-03-27 21:38:02,013 - INFO - Sending Sequence #125 (884 bytes)
+
+2025-03-27 21:38:02,013 - INFO - Expecting Sequence #125
+2025-03-27 21:38:02,017 - INFO - Received Sequence #125 (884 bytes)
+2025-03-27 21:38:02,017 - INFO - Expecting Sequence #126
+2025-03-27 21:38:02,017 - INFO - Sending Sequence #126 (884 bytes)
+2025-03-27 21:38:02,034 - INFO - Sending Sequence #127 (884 bytes)
+
+2025-03-27 21:38:02,034 - INFO - Expecting Sequence #127
+2025-03-27 21:38:02,037 - INFO - Received Sequence #127 (884 bytes)
+2025-03-27 21:38:02,037 - INFO - Expecting Sequence #128
+2025-03-27 21:38:02,037 - INFO - Sending Sequence #128 (884 bytes)
+2025-03-27 21:38:02,054 - INFO - Received Sequence #128 (884 bytes)
+2025-03-27 21:38:02,054 - INFO - Expecting Sequence #129
+2025-03-27 21:38:02,056 - INFO - Received Sequence #129 (884 bytes)
+2025-03-27 21:38:02,056 - INFO - Expecting Sequence #130
+2025-03-27 21:38:02,070 - INFO - Sending Sequence #130 (884 bytes)
+2025-03-27 21:38:02,072 - INFO - Sending Sequence #131 (884 bytes)
+2025-03-27 21:38:02,072 - INFO - Received Sequence #130 (884 bytes)
+2025-03-27 21:38:02,074 - INFO - Expecting Sequence #131
+2025-03-27 21:38:02,076 - INFO - Received Sequence #131 (884 bytes)
+2025-03-27 21:38:02,076 - INFO - Expecting Sequence #132
+2025-03-27 21:38:02,076 - INFO - Sending Sequence #132 (884 bytes)
+2025-03-27 21:38:02,093 - INFO - Received Sequence #132 (884 bytes)
+2025-03-27 21:38:02,093 - INFO - Sending Sequence #133 (884 bytes)
+2025-03-27 21:38:02,094 - INFO - Expecting Sequence #133
+2025-03-27 21:38:02,096 - INFO - Received Sequence #133 (884 bytes)
+2025-03-27 21:38:02,096 - INFO - Expecting Sequence #134
+2025-03-27 21:38:02,108 - INFO - Sending Sequence #134 (884 bytes)
+2025-03-27 21:38:02,108 - INFO - Sending Sequence #135 (884 bytes)
+2025-03-27 21:38:02,108 - INFO - Received Sequence #134 (884 bytes)
+2025-03-27 21:38:02,113 - INFO - Expecting Sequence #135
+2025-03-27 21:38:02,117 - INFO - Received Sequence #135 (884 bytes)
+2025-03-27 21:38:02,117 - INFO - Expecting Sequence #136
+2025-03-27 21:38:02,126 - INFO - Sending Sequence #136 (884 bytes)
+2025-03-27 21:38:02,126 - INFO - Sending Sequence #137 (884 bytes)
+
+2025-03-27 21:38:02,126 - INFO - Expecting Sequence #137
+2025-03-27 21:38:02,137 - INFO - Received Sequence #137 (884 bytes)
+2025-03-27 21:38:02,137 - INFO - Expecting Sequence #138
+2025-03-27 21:38:02,147 - INFO - Sending Sequence #138 (884 bytes)
+2025-03-27 21:38:02,154 - INFO - Sending Sequence #139 (884 bytes)
+2025-03-27 21:38:02,154 - INFO - Received Sequence #138 (884 bytes)
+2025-03-27 21:38:02,154 - INFO - Expecting Sequence #139
+2025-03-27 21:38:02,157 - INFO - Received Sequence #139 (884 bytes)
+2025-03-27 21:38:02,157 - INFO - Expecting Sequence #140
+2025-03-27 21:38:02,170 - INFO - Sending Sequence #140 (884 bytes)
+2025-03-27 21:38:02,174 - INFO - Received Sequence #140 (884 bytes)
+2025-03-27 21:38:02,174 - INFO - Expecting Sequence #141
+2025-03-27 21:38:02,174 - INFO - Received Sequence #141 (884 bytes)
+2025-03-27 21:38:02,178 - INFO - Expecting Sequence #142
+2025-03-27 21:38:02,188 - INFO - Sending Sequence #142 (884 bytes)
+2025-03-27 21:38:02,192 - INFO - Received Sequence #142 (884 bytes)
+2025-03-27 21:38:02,192 - INFO - Expecting Sequence #143
+2025-03-27 21:38:02,192 - INFO - Received Sequence #143 (884 bytes)
+2025-03-27 21:38:02,197 - INFO - Expecting Sequence #144
+2025-03-27 21:38:02,210 - INFO - Sending Sequence #144 (884 bytes)
+2025-03-27 21:38:02,212 - INFO - Received Sequence #144 (884 bytes)
+2025-03-27 21:38:02,214 - INFO - Expecting Sequence #145
+2025-03-27 21:38:02,217 - INFO - Received Sequence #145 (884 bytes)
+2025-03-27 21:38:02,217 - INFO - Expecting Sequence #146
+2025-03-27 21:38:02,226 - INFO - Exiting the program
