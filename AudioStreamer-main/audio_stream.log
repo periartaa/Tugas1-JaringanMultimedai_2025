@@ -1,0 +1,1252 @@
+2025-03-27 00:01:33,906 - INFO - Client started with Protocol: UDP, Host: 127.0.0.1, Port: 12345, Size: 10 ms
+2025-03-27 00:01:34,069 - INFO - PyAudio Device Initialized
+2025-03-27 00:01:34,101 - INFO - Sending Sequence #0 (884 bytes)
+2025-03-27 00:01:34,102 - INFO - Sending Sequence #1 (884 bytes)
+2025-03-27 00:01:34,102 - INFO - Out of sequence! Expected 226, got 0
+2025-03-27 00:01:34,103 - INFO - Packets Received: 227, Lost Packets: 1, Loss Rate: 0.44%, Uptime: 36.31s
+2025-03-27 00:01:34,103 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,103 - INFO - Out of sequence! Expected 226, got 1
+2025-03-27 00:01:34,104 - INFO - Packets Received: 228, Lost Packets: 2, Loss Rate: 0.88%, Uptime: 36.31s
+2025-03-27 00:01:34,104 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,121 - INFO - Sending Sequence #2 (884 bytes)
+2025-03-27 00:01:34,122 - INFO - Out of sequence! Expected 226, got 2
+2025-03-27 00:01:34,122 - INFO - Sending Sequence #3 (884 bytes)
+2025-03-27 00:01:34,123 - INFO - Packets Received: 229, Lost Packets: 3, Loss Rate: 1.31%, Uptime: 36.33s
+2025-03-27 00:01:34,123 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,123 - INFO - Out of sequence! Expected 226, got 3
+2025-03-27 00:01:34,124 - INFO - Packets Received: 230, Lost Packets: 4, Loss Rate: 1.74%, Uptime: 36.33s
+2025-03-27 00:01:34,124 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,142 - INFO - Sending Sequence #4 (884 bytes)
+2025-03-27 00:01:34,143 - INFO - Sending Sequence #5 (884 bytes)
+2025-03-27 00:01:34,143 - INFO - Out of sequence! Expected 226, got 4
+2025-03-27 00:01:34,143 - INFO - Packets Received: 231, Lost Packets: 5, Loss Rate: 2.16%, Uptime: 36.35s
+2025-03-27 00:01:34,143 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,144 - INFO - Out of sequence! Expected 226, got 5
+2025-03-27 00:01:34,144 - INFO - Packets Received: 232, Lost Packets: 6, Loss Rate: 2.59%, Uptime: 36.35s
+2025-03-27 00:01:34,145 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,162 - INFO - Sending Sequence #6 (884 bytes)
+2025-03-27 00:01:34,163 - INFO - Out of sequence! Expected 226, got 6
+2025-03-27 00:01:34,163 - INFO - Packets Received: 233, Lost Packets: 7, Loss Rate: 3.00%, Uptime: 36.37s
+2025-03-27 00:01:34,164 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,164 - INFO - Out of sequence! Expected 226, got 7
+2025-03-27 00:01:34,165 - INFO - Packets Received: 234, Lost Packets: 8, Loss Rate: 3.42%, Uptime: 36.37s
+2025-03-27 00:01:34,165 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,181 - INFO - Sending Sequence #8 (884 bytes)
+2025-03-27 00:01:34,182 - INFO - Out of sequence! Expected 226, got 8
+2025-03-27 00:01:34,183 - INFO - Packets Received: 235, Lost Packets: 9, Loss Rate: 3.83%, Uptime: 36.39s
+2025-03-27 00:01:34,183 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,183 - INFO - Out of sequence! Expected 226, got 9
+2025-03-27 00:01:34,184 - INFO - Packets Received: 236, Lost Packets: 10, Loss Rate: 4.24%, Uptime: 36.39s
+2025-03-27 00:01:34,184 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,201 - INFO - Sending Sequence #10 (884 bytes)
+2025-03-27 00:01:34,202 - INFO - Sending Sequence #11 (884 bytes)
+2025-03-27 00:01:34,202 - INFO - Out of sequence! Expected 226, got 10
+2025-03-27 00:01:34,203 - INFO - Packets Received: 237, Lost Packets: 11, Loss Rate: 4.64%, Uptime: 36.41s
+2025-03-27 00:01:34,203 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,203 - INFO - Out of sequence! Expected 226, got 11
+2025-03-27 00:01:34,204 - INFO - Packets Received: 238, Lost Packets: 12, Loss Rate: 5.04%, Uptime: 36.41s
+2025-03-27 00:01:34,204 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,223 - INFO - Sending Sequence #12 (884 bytes)
+2025-03-27 00:01:34,223 - INFO - Sending Sequence #13 (884 bytes)
+2025-03-27 00:01:34,223 - INFO - Out of sequence! Expected 226, got 12
+2025-03-27 00:01:34,224 - INFO - Packets Received: 239, Lost Packets: 13, Loss Rate: 5.44%, Uptime: 36.43s
+2025-03-27 00:01:34,224 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,224 - INFO - Out of sequence! Expected 226, got 13
+2025-03-27 00:01:34,225 - INFO - Packets Received: 240, Lost Packets: 14, Loss Rate: 5.83%, Uptime: 36.44s
+2025-03-27 00:01:34,225 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,243 - INFO - Sending Sequence #14 (884 bytes)
+2025-03-27 00:01:34,243 - INFO - Sending Sequence #15 (884 bytes)
+ 14
+2025-03-27 00:01:34,244 - INFO - Packets Received: 241, Lost Packets: 15, Loss Rate: 6.22%, Uptime: 36.45s
+2025-03-27 00:01:34,244 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,244 - INFO - Out of sequence! Expected 226, got 15
+2025-03-27 00:01:34,245 - INFO - Packets Received: 242, Lost Packets: 16, Loss Rate: 6.61%, Uptime: 36.46s
+2025-03-27 00:01:34,245 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,262 - INFO - Sending Sequence #16 (884 bytes)
+2025-03-27 00:01:34,262 - INFO - Sending Sequence #17 (884 bytes)
+2025-03-27 00:01:34,262 - INFO - Out of sequence! Expected 226, got 16
+2025-03-27 00:01:34,263 - INFO - Packets Received: 243, Lost Packets: 17, Loss Rate: 7.00%, Uptime: 36.47s
+2025-03-27 00:01:34,263 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,263 - INFO - Out of sequence! Expected 226, got 17
+2025-03-27 00:01:34,265 - INFO - Packets Received: 244, Lost Packets: 18, Loss Rate: 7.38%, Uptime: 36.47s
+2025-03-27 00:01:34,265 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,281 - INFO - Sending Sequence #18 (884 bytes)
+2025-03-27 00:01:34,282 - INFO - Sending Sequence #19 (884 bytes)
+2025-03-27 00:01:34,282 - INFO - Out of sequence! Expected 226, got 18
+2025-03-27 00:01:34,283 - INFO - Packets Received: 245, Lost Packets: 19, Loss Rate: 7.76%, Uptime: 36.49s
+2025-03-27 00:01:34,283 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,283 - INFO - Out of sequence! Expected 226, got 19
+2025-03-27 00:01:34,284 - INFO - Packets Received: 246, Lost Packets: 20, Loss Rate: 8.13%, Uptime: 36.49s
+2025-03-27 00:01:34,284 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,302 - INFO - Sending Sequence #20 (884 bytes)
+2025-03-27 00:01:34,303 - INFO - Sending Sequence #21 (884 bytes)
+2025-03-27 00:01:34,303 - INFO - Out of sequence! Expected 226, got 20
+2025-03-27 00:01:34,303 - INFO - Packets Received: 247, Lost Packets: 21, Loss Rate: 8.50%, Uptime: 36.51s
+2025-03-27 00:01:34,304 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,304 - INFO - Out of sequence! Expected 226, got 21
+2025-03-27 00:01:34,305 - INFO - Packets Received: 248, Lost Packets: 22, Loss Rate: 8.87%, Uptime: 36.51s
+2025-03-27 00:01:34,305 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,321 - INFO - Sending Sequence #22 (884 bytes)
+2025-03-27 00:01:34,322 - INFO - Sending Sequence #23 (884 bytes)
+2025-03-27 00:01:34,322 - INFO - Out of sequence! Expected 226, got 22
+2025-03-27 00:01:34,323 - INFO - Packets Received: 249, Lost Packets: 23, Loss Rate: 9.24%, Uptime: 36.53s
+2025-03-27 00:01:34,323 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,323 - INFO - Out of sequence! Expected 226, got 23
+2025-03-27 00:01:34,324 - INFO - Packets Received: 250, Lost Packets: 24, Loss Rate: 9.60%, Uptime: 36.53s
+2025-03-27 00:01:34,324 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,342 - INFO - Sending Sequence #24 (884 bytes)
+2025-03-27 00:01:34,343 - INFO - Sending Sequence #25 (884 bytes)
+2025-03-27 00:01:34,343 - INFO - Out of sequence! Expected 226, got 24
+2025-03-27 00:01:34,343 - INFO - Packets Received: 251, Lost Packets: 25, Loss Rate: 9.96%, Uptime: 36.55s
+2025-03-27 00:01:34,343 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,344 - INFO - Out of sequence! Expected 226, got 25
+2025-03-27 00:01:34,344 - INFO - Packets Received: 252, Lost Packets: 26, Loss Rate: 10.32%, Uptime: 36.55s
+2025-03-27 00:01:34,345 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,362 - INFO - Sending Sequence #26 (884 bytes)
+2025-03-27 00:01:34,362 - INFO - Out of sequence! Expected 226, got 26
+2025-03-27 00:01:34,363 - INFO - Packets Received: 253, Lost Packets: 27, Loss Rate: 10.67%, Uptime: 36.57s
+2025-03-27 00:01:34,363 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,363 - INFO - Out of sequence! Expected 226, got 27
+2025-03-27 00:01:34,364 - INFO - Packets Received: 254, Lost Packets: 28, Loss Rate: 11.02%, Uptime: 36.57s
+2025-03-27 00:01:34,364 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,382 - INFO - Sending Sequence #28 (884 bytes)
+2025-03-27 00:01:34,382 - INFO - Sending Sequence #29 (884 bytes)
+2025-03-27 00:01:34,382 - INFO - Out of sequence! Expected 226, got 28
+2025-03-27 00:01:34,383 - INFO - Packets Received: 255, Lost Packets: 29, Loss Rate: 11.37%, Uptime: 36.59s
+2025-03-27 00:01:34,383 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,383 - INFO - Out of sequence! Expected 226, got 29
+2025-03-27 00:01:34,384 - INFO - Packets Received: 256, Lost Packets: 30, Loss Rate: 11.72%, Uptime: 36.59s
+2025-03-27 00:01:34,384 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,402 - INFO - Sending Sequence #30 (884 bytes)
+2025-03-27 00:01:34,402 - INFO - Out of sequence! Expected 226, got 30
+2025-03-27 00:01:34,403 - INFO - Packets Received: 257, Lost Packets: 31, Loss Rate: 12.06%, Uptime: 36.61s
+2025-03-27 00:01:34,403 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,404 - INFO - Out of sequence! Expected 226, got 31
+2025-03-27 00:01:34,404 - INFO - Packets Received: 258, Lost Packets: 32, Loss Rate: 12.40%, Uptime: 36.62s
+2025-03-27 00:01:34,404 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,422 - INFO - Sending Sequence #32 (884 bytes)
+2025-03-27 00:01:34,422 - INFO - Sending Sequence #33 (884 bytes)
+2025-03-27 00:01:34,422 - INFO - Out of sequence! Expected 226, got 32
+2025-03-27 00:01:34,423 - INFO - Packets Received: 259, Lost Packets: 33, Loss Rate: 12.74%, Uptime: 36.63s
+2025-03-27 00:01:34,423 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,423 - INFO - Out of sequence! Expected 226, got 33
+2025-03-27 00:01:34,424 - INFO - Packets Received: 260, Lost Packets: 34, Loss Rate: 13.08%, Uptime: 36.63s
+2025-03-27 00:01:34,424 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,441 - INFO - Sending Sequence #34 (884 bytes)
+2025-03-27 00:01:34,443 - INFO - Sending Sequence #35 (884 bytes)
+2025-03-27 00:01:34,443 - INFO - Out of sequence! Expected 226, got 34
+2025-03-27 00:01:34,443 - INFO - Packets Received: 261, Lost Packets: 35, Loss Rate: 13.41%, Uptime: 36.65s
+2025-03-27 00:01:34,444 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,444 - INFO - Out of sequence! Expected 226, got 35
+2025-03-27 00:01:34,445 - INFO - Packets Received: 262, Lost Packets: 36, Loss Rate: 13.74%, Uptime: 36.65s
+2025-03-27 00:01:34,445 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,462 - INFO - Sending Sequence #36 (884 bytes)
+2025-03-27 00:01:34,462 - INFO - Sending Sequence #37 (884 bytes)
+ 36
+2025-03-27 00:01:34,463 - INFO - Packets Received: 263, Lost Packets: 37, Loss Rate: 14.07%, Uptime: 36.67s
+2025-03-27 00:01:34,463 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,464 - INFO - Out of sequence! Expected 226, got 37
+2025-03-27 00:01:34,464 - INFO - Packets Received: 264, Lost Packets: 38, Loss Rate: 14.39%, Uptime: 36.67s
+2025-03-27 00:01:34,465 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,482 - INFO - Sending Sequence #38 (884 bytes)
+2025-03-27 00:01:34,482 - INFO - Out of sequence! Expected 226, got 38
+2025-03-27 00:01:34,483 - INFO - Packets Received: 265, Lost Packets: 39, Loss Rate: 14.72%, Uptime: 36.69s
+2025-03-27 00:01:34,483 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,484 - INFO - Out of sequence! Expected 226, got 39
+2025-03-27 00:01:34,484 - INFO - Packets Received: 266, Lost Packets: 40, Loss Rate: 15.04%, Uptime: 36.69s
+2025-03-27 00:01:34,484 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,502 - INFO - Sending Sequence #40 (884 bytes)
+2025-03-27 00:01:34,503 - INFO - Sending Sequence #41 (884 bytes)
+2025-03-27 00:01:34,503 - INFO - Out of sequence! Expected 226, got 40
+2025-03-27 00:01:34,503 - INFO - Packets Received: 267, Lost Packets: 41, Loss Rate: 15.36%, Uptime: 36.71s
+2025-03-27 00:01:34,503 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,504 - INFO - Out of sequence! Expected 226, got 41
+2025-03-27 00:01:34,505 - INFO - Packets Received: 268, Lost Packets: 42, Loss Rate: 15.67%, Uptime: 36.71s
+2025-03-27 00:01:34,505 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,521 - INFO - Sending Sequence #42 (884 bytes)
+2025-03-27 00:01:34,521 - INFO - Sending Sequence #43 (884 bytes)
+2025-03-27 00:01:34,521 - INFO - Out of sequence! Expected 226, got 42
+2025-03-27 00:01:34,523 - INFO - Packets Received: 269, Lost Packets: 43, Loss Rate: 15.99%, Uptime: 36.73s
+2025-03-27 00:01:34,523 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,523 - INFO - Out of sequence! Expected 226, got 43
+2025-03-27 00:01:34,524 - INFO - Packets Received: 270, Lost Packets: 44, Loss Rate: 16.30%, Uptime: 36.73s
+2025-03-27 00:01:34,524 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,542 - INFO - Sending Sequence #44 (884 bytes)
+2025-03-27 00:01:34,542 - INFO - Sending Sequence #45 (884 bytes)
+2025-03-27 00:01:34,542 - INFO - Out of sequence! Expected 226, got 44
+2025-03-27 00:01:34,544 - INFO - Packets Received: 271, Lost Packets: 45, Loss Rate: 16.61%, Uptime: 36.75s
+2025-03-27 00:01:34,544 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,545 - INFO - Out of sequence! Expected 226, got 45
+2025-03-27 00:01:34,546 - INFO - Packets Received: 272, Lost Packets: 46, Loss Rate: 16.91%, Uptime: 36.76s
+2025-03-27 00:01:34,546 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,562 - INFO - Sending Sequence #46 (884 bytes)
+2025-03-27 00:01:34,562 - INFO - Sending Sequence #47 (884 bytes)
+ 46
+2025-03-27 00:01:34,563 - INFO - Packets Received: 273, Lost Packets: 47, Loss Rate: 17.22%, Uptime: 36.77s
+2025-03-27 00:01:34,563 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,564 - INFO - Out of sequence! Expected 226, got 47
+2025-03-27 00:01:34,565 - INFO - Packets Received: 274, Lost Packets: 48, Loss Rate: 17.52%, Uptime: 36.77s
+2025-03-27 00:01:34,565 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,582 - INFO - Sending Sequence #48 (884 bytes)
+2025-03-27 00:01:34,582 - INFO - Sending Sequence #49 (884 bytes)
+2025-03-27 00:01:34,582 - INFO - Out of sequence! Expected 226, got 48
+2025-03-27 00:01:34,583 - INFO - Packets Received: 275, Lost Packets: 49, Loss Rate: 17.82%, Uptime: 36.79s
+2025-03-27 00:01:34,583 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,583 - INFO - Out of sequence! Expected 226, got 49
+2025-03-27 00:01:34,584 - INFO - Packets Received: 276, Lost Packets: 50, Loss Rate: 18.12%, Uptime: 36.79s
+2025-03-27 00:01:34,584 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,602 - INFO - Sending Sequence #50 (884 bytes)
+2025-03-27 00:01:34,603 - INFO - Sending Sequence #51 (884 bytes)
+2025-03-27 00:01:34,603 - INFO - Out of sequence! Expected 226, got 50
+2025-03-27 00:01:34,603 - INFO - Packets Received: 277, Lost Packets: 51, Loss Rate: 18.41%, Uptime: 36.81s
+2025-03-27 00:01:34,603 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,604 - INFO - Out of sequence! Expected 226, got 51
+2025-03-27 00:01:34,604 - INFO - Packets Received: 278, Lost Packets: 52, Loss Rate: 18.71%, Uptime: 36.81s
+2025-03-27 00:01:34,604 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,622 - INFO - Sending Sequence #52 (884 bytes)
+2025-03-27 00:01:34,622 - INFO - Sending Sequence #53 (884 bytes)
+2025-03-27 00:01:34,622 - INFO - Out of sequence! Expected 226, got 52
+2025-03-27 00:01:34,623 - INFO - Packets Received: 279, Lost Packets: 53, Loss Rate: 19.00%, Uptime: 36.83s
+2025-03-27 00:01:34,623 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,624 - INFO - Out of sequence! Expected 226, got 53
+2025-03-27 00:01:34,624 - INFO - Packets Received: 280, Lost Packets: 54, Loss Rate: 19.29%, Uptime: 36.84s
+2025-03-27 00:01:34,625 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,642 - INFO - Sending Sequence #54 (884 bytes)
+2025-03-27 00:01:34,642 - INFO - Sending Sequence #55 (884 bytes)
+2025-03-27 00:01:34,642 - INFO - Out of sequence! Expected 226, got 54
+2025-03-27 00:01:34,643 - INFO - Packets Received: 281, Lost Packets: 55, Loss Rate: 19.57%, Uptime: 36.85s
+2025-03-27 00:01:34,643 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,643 - INFO - Out of sequence! Expected 226, got 55
+2025-03-27 00:01:34,644 - INFO - Packets Received: 282, Lost Packets: 56, Loss Rate: 19.86%, Uptime: 36.85s
+2025-03-27 00:01:34,644 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,661 - INFO - Sending Sequence #56 (884 bytes)
+2025-03-27 00:01:34,663 - INFO - Sending Sequence #57 (884 bytes)
+2025-03-27 00:01:34,663 - INFO - Out of sequence! Expected 226, got 56
+2025-03-27 00:01:34,663 - INFO - Packets Received: 283, Lost Packets: 57, Loss Rate: 20.14%, Uptime: 36.87s
+2025-03-27 00:01:34,663 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,664 - INFO - Out of sequence! Expected 226, got 57
+2025-03-27 00:01:34,664 - INFO - Packets Received: 284, Lost Packets: 58, Loss Rate: 20.42%, Uptime: 36.87s
+2025-03-27 00:01:34,665 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,682 - INFO - Sending Sequence #58 (884 bytes)
+2025-03-27 00:01:34,683 - INFO - Sending Sequence #59 (884 bytes)
+2025-03-27 00:01:34,683 - INFO - Out of sequence! Expected 226, got 58
+2025-03-27 00:01:34,683 - INFO - Packets Received: 285, Lost Packets: 59, Loss Rate: 20.70%, Uptime: 36.89s
+2025-03-27 00:01:34,683 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,684 - INFO - Out of sequence! Expected 226, got 59
+2025-03-27 00:01:34,684 - INFO - Packets Received: 286, Lost Packets: 60, Loss Rate: 20.98%, Uptime: 36.89s
+2025-03-27 00:01:34,685 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,702 - INFO - Sending Sequence #60 (884 bytes)
+2025-03-27 00:01:34,703 - INFO - Sending Sequence #61 (884 bytes)
+2025-03-27 00:01:34,703 - INFO - Out of sequence! Expected 226, got 60
+2025-03-27 00:01:34,703 - INFO - Packets Received: 287, Lost Packets: 61, Loss Rate: 21.25%, Uptime: 36.91s
+2025-03-27 00:01:34,704 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,704 - INFO - Out of sequence! Expected 226, got 61
+2025-03-27 00:01:34,705 - INFO - Packets Received: 288, Lost Packets: 62, Loss Rate: 21.53%, Uptime: 36.91s
+2025-03-27 00:01:34,705 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,722 - INFO - Sending Sequence #62 (884 bytes)
+2025-03-27 00:01:34,722 - INFO - Sending Sequence #63 (884 bytes)
+2025-03-27 00:01:34,722 - INFO - Out of sequence! Expected 226, got 62
+2025-03-27 00:01:34,723 - INFO - Packets Received: 289, Lost Packets: 63, Loss Rate: 21.80%, Uptime: 36.93s
+2025-03-27 00:01:34,723 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,723 - INFO - Out of sequence! Expected 226, got 63
+2025-03-27 00:01:34,724 - INFO - Packets Received: 290, Lost Packets: 64, Loss Rate: 22.07%, Uptime: 36.93s
+2025-03-27 00:01:34,724 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,743 - INFO - Sending Sequence #64 (884 bytes)
+2025-03-27 00:01:34,743 - INFO - Sending Sequence #65 (884 bytes)
+2025-03-27 00:01:34,743 - INFO - Out of sequence! Expected 226, got 64
+2025-03-27 00:01:34,744 - INFO - Packets Received: 291, Lost Packets: 65, Loss Rate: 22.34%, Uptime: 36.95s
+2025-03-27 00:01:34,744 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,744 - INFO - Out of sequence! Expected 226, got 65
+2025-03-27 00:01:34,745 - INFO - Packets Received: 292, Lost Packets: 66, Loss Rate: 22.60%, Uptime: 36.96s
+2025-03-27 00:01:34,745 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,761 - INFO - Sending Sequence #66 (884 bytes)
+2025-03-27 00:01:34,761 - INFO - Out of sequence! Expected 226, got 66
+2025-03-27 00:01:34,761 - INFO - Sending Sequence #67 (884 bytes)
+2025-03-27 00:01:34,763 - INFO - Packets Received: 293, Lost Packets: 67, Loss Rate: 22.87%, Uptime: 36.97s
+2025-03-27 00:01:34,763 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,764 - INFO - Out of sequence! Expected 226, got 67
+2025-03-27 00:01:34,765 - INFO - Packets Received: 294, Lost Packets: 68, Loss Rate: 23.13%, Uptime: 36.97s
+2025-03-27 00:01:34,765 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,782 - INFO - Sending Sequence #68 (884 bytes)
+2025-03-27 00:01:34,783 - INFO - Sending Sequence #69 (884 bytes)
+2025-03-27 00:01:34,783 - INFO - Out of sequence! Expected 226, got 68
+2025-03-27 00:01:34,783 - INFO - Packets Received: 295, Lost Packets: 69, Loss Rate: 23.39%, Uptime: 36.99s
+2025-03-27 00:01:34,783 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,784 - INFO - Out of sequence! Expected 226, got 69
+2025-03-27 00:01:34,784 - INFO - Packets Received: 296, Lost Packets: 70, Loss Rate: 23.65%, Uptime: 36.99s
+2025-03-27 00:01:34,785 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,803 - INFO - Sending Sequence #70 (884 bytes)
+2025-03-27 00:01:34,803 - INFO - Sending Sequence #71 (884 bytes)
+2025-03-27 00:01:34,803 - INFO - Out of sequence! Expected 226, got 70
+2025-03-27 00:01:34,804 - INFO - Packets Received: 297, Lost Packets: 71, Loss Rate: 23.91%, Uptime: 37.01s
+2025-03-27 00:01:34,804 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,804 - INFO - Out of sequence! Expected 226, got 71
+2025-03-27 00:01:34,805 - INFO - Packets Received: 298, Lost Packets: 72, Loss Rate: 24.16%, Uptime: 37.02s
+2025-03-27 00:01:34,805 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,821 - INFO - Sending Sequence #72 (884 bytes)
+2025-03-27 00:01:34,822 - INFO - Sending Sequence #73 (884 bytes)
+2025-03-27 00:01:34,822 - INFO - Out of sequence! Expected 226, got 72
+2025-03-27 00:01:34,822 - INFO - Packets Received: 299, Lost Packets: 73, Loss Rate: 24.41%, Uptime: 37.03s
+2025-03-27 00:01:34,822 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,823 - INFO - Out of sequence! Expected 226, got 73
+2025-03-27 00:01:34,824 - INFO - Packets Received: 300, Lost Packets: 74, Loss Rate: 24.67%, Uptime: 37.03s
+2025-03-27 00:01:34,824 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,843 - INFO - Sending Sequence #74 (884 bytes)
+2025-03-27 00:01:34,843 - INFO - Sending Sequence #75 (884 bytes)
+2025-03-27 00:01:34,843 - INFO - Out of sequence! Expected 226, got 74
+2025-03-27 00:01:34,844 - INFO - Packets Received: 301, Lost Packets: 75, Loss Rate: 24.92%, Uptime: 37.05s
+2025-03-27 00:01:34,844 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,845 - INFO - Out of sequence! Expected 226, got 75
+2025-03-27 00:01:34,846 - INFO - Packets Received: 302, Lost Packets: 76, Loss Rate: 25.17%, Uptime: 37.06s
+2025-03-27 00:01:34,846 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,862 - INFO - Sending Sequence #76 (884 bytes)
+2025-03-27 00:01:34,862 - INFO - Sending Sequence #77 (884 bytes)
+2025-03-27 00:01:34,862 - INFO - Out of sequence! Expected 226, got 76
+2025-03-27 00:01:34,863 - INFO - Packets Received: 303, Lost Packets: 77, Loss Rate: 25.41%, Uptime: 37.07s
+2025-03-27 00:01:34,863 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,863 - INFO - Out of sequence! Expected 226, got 77
+2025-03-27 00:01:34,864 - INFO - Packets Received: 304, Lost Packets: 78, Loss Rate: 25.66%, Uptime: 37.07s
+2025-03-27 00:01:34,864 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,882 - INFO - Sending Sequence #78 (884 bytes)
+2025-03-27 00:01:34,882 - INFO - Sending Sequence #79 (884 bytes)
+2025-03-27 00:01:34,883 - INFO - Out of sequence! Expected 226, got 78
+2025-03-27 00:01:34,883 - INFO - Packets Received: 305, Lost Packets: 79, Loss Rate: 25.90%, Uptime: 37.09s
+2025-03-27 00:01:34,883 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,884 - INFO - Out of sequence! Expected 226, got 79
+2025-03-27 00:01:34,884 - INFO - Packets Received: 306, Lost Packets: 80, Loss Rate: 26.14%, Uptime: 37.09s
+2025-03-27 00:01:34,884 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,901 - INFO - Sending Sequence #80 (884 bytes)
+2025-03-27 00:01:34,901 - INFO - Sending Sequence #81 (884 bytes)
+2025-03-27 00:01:34,901 - INFO - Out of sequence! Expected 226, got 80
+2025-03-27 00:01:34,903 - INFO - Packets Received: 307, Lost Packets: 81, Loss Rate: 26.38%, Uptime: 37.11s
+2025-03-27 00:01:34,903 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,903 - INFO - Out of sequence! Expected 226, got 81
+2025-03-27 00:01:34,904 - INFO - Packets Received: 308, Lost Packets: 82, Loss Rate: 26.62%, Uptime: 37.11s
+2025-03-27 00:01:34,904 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,922 - INFO - Sending Sequence #82 (884 bytes)
+2025-03-27 00:01:34,922 - INFO - Sending Sequence #83 (884 bytes)
+2025-03-27 00:01:34,922 - INFO - Out of sequence! Expected 226, got 82
+2025-03-27 00:01:34,924 - INFO - Packets Received: 309, Lost Packets: 83, Loss Rate: 26.86%, Uptime: 37.13s
+2025-03-27 00:01:34,924 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,924 - INFO - Out of sequence! Expected 226, got 83
+2025-03-27 00:01:34,925 - INFO - Packets Received: 310, Lost Packets: 84, Loss Rate: 27.10%, Uptime: 37.14s
+2025-03-27 00:01:34,925 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,941 - INFO - Sending Sequence #84 (884 bytes)
+2025-03-27 00:01:34,942 - INFO - Sending Sequence #85 (884 bytes)
+2025-03-27 00:01:34,942 - INFO - Out of sequence! Expected 226, got 84
+2025-03-27 00:01:34,943 - INFO - Packets Received: 311, Lost Packets: 85, Loss Rate: 27.33%, Uptime: 37.15s
+2025-03-27 00:01:34,943 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,943 - INFO - Out of sequence! Expected 226, got 85
+2025-03-27 00:01:34,944 - INFO - Packets Received: 312, Lost Packets: 86, Loss Rate: 27.56%, Uptime: 37.15s
+2025-03-27 00:01:34,944 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,962 - INFO - Sending Sequence #86 (884 bytes)
+2025-03-27 00:01:34,962 - INFO - Out of sequence! Expected 226, got 86
+2025-03-27 00:01:34,963 - INFO - Packets Received: 313, Lost Packets: 87, Loss Rate: 27.80%, Uptime: 37.17s
+2025-03-27 00:01:34,963 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,963 - INFO - Out of sequence! Expected 226, got 87
+2025-03-27 00:01:34,964 - INFO - Packets Received: 314, Lost Packets: 88, Loss Rate: 28.03%, Uptime: 37.17s
+2025-03-27 00:01:34,965 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,982 - INFO - Sending Sequence #88 (884 bytes)
+2025-03-27 00:01:34,983 - INFO - Sending Sequence #89 (884 bytes)
+2025-03-27 00:01:34,983 - INFO - Out of sequence! Expected 226, got 88
+2025-03-27 00:01:34,983 - INFO - Packets Received: 315, Lost Packets: 89, Loss Rate: 28.25%, Uptime: 37.19s
+2025-03-27 00:01:34,983 - INFO - Expecting Sequence #226
+2025-03-27 00:01:34,983 - INFO - Out of sequence! Expected 226, got 89
+2025-03-27 00:01:34,984 - INFO - Packets Received: 316, Lost Packets: 90, Loss Rate: 28.48%, Uptime: 37.19s
+2025-03-27 00:01:34,984 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,002 - INFO - Sending Sequence #90 (884 bytes)
+2025-03-27 00:01:35,002 - INFO - Sending Sequence #91 (884 bytes)
+2025-03-27 00:01:35,002 - INFO - Out of sequence! Expected 226, got 90
+2025-03-27 00:01:35,003 - INFO - Packets Received: 317, Lost Packets: 91, Loss Rate: 28.71%, Uptime: 37.21s
+2025-03-27 00:01:35,003 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,004 - INFO - Out of sequence! Expected 226, got 91
+2025-03-27 00:01:35,004 - INFO - Packets Received: 318, Lost Packets: 92, Loss Rate: 28.93%, Uptime: 37.21s
+2025-03-27 00:01:35,004 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,022 - INFO - Sending Sequence #92 (884 bytes)
+2025-03-27 00:01:35,022 - INFO - Sending Sequence #93 (884 bytes)
+2025-03-27 00:01:35,022 - INFO - Out of sequence! Expected 226, got 92
+2025-03-27 00:01:35,023 - INFO - Packets Received: 319, Lost Packets: 93, Loss Rate: 29.15%, Uptime: 37.23s
+2025-03-27 00:01:35,023 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,023 - INFO - Out of sequence! Expected 226, got 93
+2025-03-27 00:01:35,024 - INFO - Packets Received: 320, Lost Packets: 94, Loss Rate: 29.38%, Uptime: 37.23s
+2025-03-27 00:01:35,024 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,042 - INFO - Sending Sequence #94 (884 bytes)
+2025-03-27 00:01:35,043 - INFO - Sending Sequence #95 (884 bytes)
+2025-03-27 00:01:35,043 - INFO - Out of sequence! Expected 226, got 94
+2025-03-27 00:01:35,043 - INFO - Packets Received: 321, Lost Packets: 95, Loss Rate: 29.60%, Uptime: 37.25s
+2025-03-27 00:01:35,044 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,044 - INFO - Out of sequence! Expected 226, got 95
+2025-03-27 00:01:35,045 - INFO - Packets Received: 322, Lost Packets: 96, Loss Rate: 29.81%, Uptime: 37.25s
+2025-03-27 00:01:35,045 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,062 - INFO - Sending Sequence #96 (884 bytes)
+2025-03-27 00:01:35,062 - INFO - Out of sequence! Expected 226, got 96
+2025-03-27 00:01:35,062 - INFO - Sending Sequence #97 (884 bytes)
+2025-03-27 00:01:35,063 - INFO - Packets Received: 323, Lost Packets: 97, Loss Rate: 30.03%, Uptime: 37.27s
+2025-03-27 00:01:35,063 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,064 - INFO - Out of sequence! Expected 226, got 97
+2025-03-27 00:01:35,065 - INFO - Packets Received: 324, Lost Packets: 98, Loss Rate: 30.25%, Uptime: 37.27s
+2025-03-27 00:01:35,065 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,082 - INFO - Sending Sequence #98 (884 bytes)
+2025-03-27 00:01:35,083 - INFO - Sending Sequence #99 (884 bytes)
+2025-03-27 00:01:35,083 - INFO - Out of sequence! Expected 226, got 98
+2025-03-27 00:01:35,083 - INFO - Packets Received: 325, Lost Packets: 99, Loss Rate: 30.46%, Uptime: 37.29s
+2025-03-27 00:01:35,084 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,084 - INFO - Out of sequence! Expected 226, got 99
+2025-03-27 00:01:35,085 - INFO - Packets Received: 326, Lost Packets: 100, Loss Rate: 30.67%, Uptime: 37.29s
+2025-03-27 00:01:35,085 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,102 - INFO - Sending Sequence #100 (884 bytes)
+2025-03-27 00:01:35,102 - INFO - Sending Sequence #101 (884 bytes)
+2025-03-27 00:01:35,102 - INFO - Out of sequence! Expected 226, got 100
+2025-03-27 00:01:35,104 - INFO - Packets Received: 327, Lost Packets: 101, Loss Rate: 30.89%, Uptime: 37.31s
+2025-03-27 00:01:35,104 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,104 - INFO - Out of sequence! Expected 226, got 101
+2025-03-27 00:01:35,105 - INFO - Packets Received: 328, Lost Packets: 102, Loss Rate: 31.10%, Uptime: 37.32s
+2025-03-27 00:01:35,105 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,122 - INFO - Sending Sequence #102 (884 bytes)
+2025-03-27 00:01:35,122 - INFO - Out of sequence! Expected 226, got 102
+2025-03-27 00:01:35,123 - INFO - Packets Received: 329, Lost Packets: 103, Loss Rate: 31.31%, Uptime: 37.33s
+2025-03-27 00:01:35,123 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,123 - INFO - Out of sequence! Expected 226, got 103
+2025-03-27 00:01:35,124 - INFO - Packets Received: 330, Lost Packets: 104, Loss Rate: 31.52%, Uptime: 37.34s
+2025-03-27 00:01:35,124 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,142 - INFO - Sending Sequence #104 (884 bytes)
+2025-03-27 00:01:35,142 - INFO - Sending Sequence #105 (884 bytes)
+2025-03-27 00:01:35,142 - INFO - Out of sequence! Expected 226, got 104
+2025-03-27 00:01:35,143 - INFO - Packets Received: 331, Lost Packets: 105, Loss Rate: 31.72%, Uptime: 37.35s
+2025-03-27 00:01:35,143 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,143 - INFO - Out of sequence! Expected 226, got 105
+2025-03-27 00:01:35,144 - INFO - Packets Received: 332, Lost Packets: 106, Loss Rate: 31.93%, Uptime: 37.35s
+2025-03-27 00:01:35,144 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,161 - INFO - Sending Sequence #106 (884 bytes)
+2025-03-27 00:01:35,161 - INFO - Sending Sequence #107 (884 bytes)
+2025-03-27 00:01:35,163 - INFO - Out of sequence! Expected 226, got 106
+2025-03-27 00:01:35,163 - INFO - Packets Received: 333, Lost Packets: 107, Loss Rate: 32.13%, Uptime: 37.37s
+2025-03-27 00:01:35,163 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,164 - INFO - Out of sequence! Expected 226, got 107
+2025-03-27 00:01:35,164 - INFO - Packets Received: 334, Lost Packets: 108, Loss Rate: 32.34%, Uptime: 37.37s
+2025-03-27 00:01:35,165 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,182 - INFO - Sending Sequence #108 (884 bytes)
+2025-03-27 00:01:35,182 - INFO - Sending Sequence #109 (884 bytes)
+2025-03-27 00:01:35,182 - INFO - Out of sequence! Expected 226, got 108
+2025-03-27 00:01:35,183 - INFO - Packets Received: 335, Lost Packets: 109, Loss Rate: 32.54%, Uptime: 37.39s
+2025-03-27 00:01:35,183 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,183 - INFO - Out of sequence! Expected 226, got 109
+2025-03-27 00:01:35,184 - INFO - Packets Received: 336, Lost Packets: 110, Loss Rate: 32.74%, Uptime: 37.39s
+2025-03-27 00:01:35,184 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,202 - INFO - Sending Sequence #110 (884 bytes)
+2025-03-27 00:01:35,202 - INFO - Sending Sequence #111 (884 bytes)
+2025-03-27 00:01:35,202 - INFO - Out of sequence! Expected 226, got 110
+2025-03-27 00:01:35,203 - INFO - Packets Received: 337, Lost Packets: 111, Loss Rate: 32.94%, Uptime: 37.41s
+2025-03-27 00:01:35,203 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,203 - INFO - Out of sequence! Expected 226, got 111
+2025-03-27 00:01:35,204 - INFO - Packets Received: 338, Lost Packets: 112, Loss Rate: 33.14%, Uptime: 37.41s
+2025-03-27 00:01:35,204 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,223 - INFO - Sending Sequence #112 (884 bytes)
+2025-03-27 00:01:35,230 - INFO - Sending Sequence #113 (884 bytes)
+112
+2025-03-27 00:01:35,234 - INFO - Packets Received: 339, Lost Packets: 113, Loss Rate: 33.33%, Uptime: 37.44s
+2025-03-27 00:01:35,234 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,237 - INFO - Out of sequence! Expected 226, got 113
+2025-03-27 00:01:35,243 - INFO - Packets Received: 340, Lost Packets: 114, Loss Rate: 33.53%, Uptime: 37.45s
+2025-03-27 00:01:35,243 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,247 - INFO - Sending Sequence #114 (884 bytes)
+2025-03-27 00:01:35,249 - INFO - Out of sequence! Expected 226, got 114
+2025-03-27 00:01:35,249 - INFO - Packets Received: 341, Lost Packets: 115, Loss Rate: 33.72%, Uptime: 37.46s
+2025-03-27 00:01:35,249 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,252 - INFO - Out of sequence! Expected 226, got 115
+2025-03-27 00:01:35,253 - INFO - Packets Received: 342, Lost Packets: 116, Loss Rate: 33.92%, Uptime: 37.46s
+2025-03-27 00:01:35,253 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,264 - INFO - Sending Sequence #116 (884 bytes)
+2025-03-27 00:01:35,266 - INFO - Out of sequence! Expected 226, got 116
+2025-03-27 00:01:35,267 - INFO - Packets Received: 343, Lost Packets: 117, Loss Rate: 34.11%, Uptime: 37.48s
+2025-03-27 00:01:35,267 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,269 - INFO - Out of sequence! Expected 226, got 117
+2025-03-27 00:01:35,270 - INFO - Packets Received: 344, Lost Packets: 118, Loss Rate: 34.30%, Uptime: 37.48s
+2025-03-27 00:01:35,270 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,289 - INFO - Sending Sequence #118 (884 bytes)
+2025-03-27 00:01:35,290 - INFO - Sending Sequence #119 (884 bytes)
+118
+2025-03-27 00:01:35,291 - INFO - Packets Received: 345, Lost Packets: 119, Loss Rate: 34.49%, Uptime: 37.50s
+2025-03-27 00:01:35,291 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,291 - INFO - Out of sequence! Expected 226, got 119
+2025-03-27 00:01:35,291 - INFO - Packets Received: 346, Lost Packets: 120, Loss Rate: 34.68%, Uptime: 37.50s
+2025-03-27 00:01:35,293 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,301 - INFO - Sending Sequence #120 (884 bytes)
+2025-03-27 00:01:35,304 - INFO - Sending Sequence #121 (884 bytes)
+120
+2025-03-27 00:01:35,305 - INFO - Packets Received: 347, Lost Packets: 121, Loss Rate: 34.87%, Uptime: 37.51s
+2025-03-27 00:01:35,305 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,306 - INFO - Out of sequence! Expected 226, got 121
+2025-03-27 00:01:35,308 - INFO - Packets Received: 348, Lost Packets: 122, Loss Rate: 35.06%, Uptime: 37.52s
+2025-03-27 00:01:35,308 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,323 - INFO - Sending Sequence #122 (884 bytes)
+2025-03-27 00:01:35,323 - INFO - Sending Sequence #123 (884 bytes)
+2025-03-27 00:01:35,323 - INFO - Out of sequence! Expected 226, got 122
+2025-03-27 00:01:35,324 - INFO - Packets Received: 349, Lost Packets: 123, Loss Rate: 35.24%, Uptime: 37.53s
+2025-03-27 00:01:35,324 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,324 - INFO - Out of sequence! Expected 226, got 123
+2025-03-27 00:01:35,325 - INFO - Packets Received: 350, Lost Packets: 124, Loss Rate: 35.43%, Uptime: 37.54s
+2025-03-27 00:01:35,325 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,342 - INFO - Sending Sequence #124 (884 bytes)
+2025-03-27 00:01:35,343 - INFO - Sending Sequence #125 (884 bytes)
+2025-03-27 00:01:35,343 - INFO - Out of sequence! Expected 226, got 124
+2025-03-27 00:01:35,343 - INFO - Packets Received: 351, Lost Packets: 125, Loss Rate: 35.61%, Uptime: 37.55s
+2025-03-27 00:01:35,343 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,343 - INFO - Out of sequence! Expected 226, got 125
+2025-03-27 00:01:35,344 - INFO - Packets Received: 352, Lost Packets: 126, Loss Rate: 35.80%, Uptime: 37.55s
+2025-03-27 00:01:35,344 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,361 - INFO - Sending Sequence #126 (884 bytes)
+2025-03-27 00:01:35,362 - INFO - Out of sequence! Expected 226, got 126
+2025-03-27 00:01:35,362 - INFO - Sending Sequence #127 (884 bytes)
+2025-03-27 00:01:35,363 - INFO - Packets Received: 353, Lost Packets: 127, Loss Rate: 35.98%, Uptime: 37.57s
+2025-03-27 00:01:35,363 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,363 - INFO - Out of sequence! Expected 226, got 127
+2025-03-27 00:01:35,364 - INFO - Packets Received: 354, Lost Packets: 128, Loss Rate: 36.16%, Uptime: 37.57s
+2025-03-27 00:01:35,364 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,381 - INFO - Sending Sequence #128 (884 bytes)
+2025-03-27 00:01:35,382 - INFO - Sending Sequence #129 (884 bytes)
+2025-03-27 00:01:35,382 - INFO - Out of sequence! Expected 226, got 128
+2025-03-27 00:01:35,383 - INFO - Packets Received: 355, Lost Packets: 129, Loss Rate: 36.34%, Uptime: 37.59s
+2025-03-27 00:01:35,383 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,383 - INFO - Out of sequence! Expected 226, got 129
+2025-03-27 00:01:35,384 - INFO - Packets Received: 356, Lost Packets: 130, Loss Rate: 36.52%, Uptime: 37.59s
+2025-03-27 00:01:35,384 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,402 - INFO - Sending Sequence #130 (884 bytes)
+2025-03-27 00:01:35,402 - INFO - Sending Sequence #131 (884 bytes)
+2025-03-27 00:01:35,402 - INFO - Out of sequence! Expected 226, got 130
+2025-03-27 00:01:35,404 - INFO - Packets Received: 357, Lost Packets: 131, Loss Rate: 36.69%, Uptime: 37.61s
+2025-03-27 00:01:35,404 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,404 - INFO - Out of sequence! Expected 226, got 131
+2025-03-27 00:01:35,405 - INFO - Packets Received: 358, Lost Packets: 132, Loss Rate: 36.87%, Uptime: 37.62s
+2025-03-27 00:01:35,405 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,423 - INFO - Sending Sequence #132 (884 bytes)
+2025-03-27 00:01:35,423 - INFO - Sending Sequence #133 (884 bytes)
+2025-03-27 00:01:35,423 - INFO - Out of sequence! Expected 226, got 132
+2025-03-27 00:01:35,424 - INFO - Packets Received: 359, Lost Packets: 133, Loss Rate: 37.05%, Uptime: 37.63s
+2025-03-27 00:01:35,424 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,424 - INFO - Out of sequence! Expected 226, got 133
+2025-03-27 00:01:35,425 - INFO - Packets Received: 360, Lost Packets: 134, Loss Rate: 37.22%, Uptime: 37.63s
+2025-03-27 00:01:35,425 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,442 - INFO - Sending Sequence #134 (884 bytes)
+2025-03-27 00:01:35,443 - INFO - Out of sequence! Expected 226, got 134
+2025-03-27 00:01:35,443 - INFO - Packets Received: 361, Lost Packets: 135, Loss Rate: 37.40%, Uptime: 37.65s
+2025-03-27 00:01:35,444 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,444 - INFO - Out of sequence! Expected 226, got 135
+2025-03-27 00:01:35,445 - INFO - Packets Received: 362, Lost Packets: 136, Loss Rate: 37.57%, Uptime: 37.65s
+2025-03-27 00:01:35,445 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,462 - INFO - Sending Sequence #136 (884 bytes)
+2025-03-27 00:01:35,463 - INFO - Sending Sequence #137 (884 bytes)
+2025-03-27 00:01:35,463 - INFO - Out of sequence! Expected 226, got 136
+2025-03-27 00:01:35,463 - INFO - Packets Received: 363, Lost Packets: 137, Loss Rate: 37.74%, Uptime: 37.67s
+2025-03-27 00:01:35,463 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,464 - INFO - Out of sequence! Expected 226, got 137
+2025-03-27 00:01:35,465 - INFO - Packets Received: 364, Lost Packets: 138, Loss Rate: 37.91%, Uptime: 37.67s
+2025-03-27 00:01:35,465 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,482 - INFO - Sending Sequence #138 (884 bytes)
+2025-03-27 00:01:35,482 - INFO - Sending Sequence #139 (884 bytes)
+2025-03-27 00:01:35,482 - INFO - Out of sequence! Expected 226, got 138
+2025-03-27 00:01:35,483 - INFO - Packets Received: 365, Lost Packets: 139, Loss Rate: 38.08%, Uptime: 37.69s
+2025-03-27 00:01:35,483 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,483 - INFO - Out of sequence! Expected 226, got 139
+2025-03-27 00:01:35,484 - INFO - Packets Received: 366, Lost Packets: 140, Loss Rate: 38.25%, Uptime: 37.69s
+2025-03-27 00:01:35,484 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,502 - INFO - Sending Sequence #140 (884 bytes)
+2025-03-27 00:01:35,503 - INFO - Sending Sequence #141 (884 bytes)
+2025-03-27 00:01:35,503 - INFO - Out of sequence! Expected 226, got 140
+2025-03-27 00:01:35,503 - INFO - Packets Received: 367, Lost Packets: 141, Loss Rate: 38.42%, Uptime: 37.71s
+2025-03-27 00:01:35,503 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,504 - INFO - Out of sequence! Expected 226, got 141
+2025-03-27 00:01:35,504 - INFO - Packets Received: 368, Lost Packets: 142, Loss Rate: 38.59%, Uptime: 37.71s
+2025-03-27 00:01:35,504 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,521 - INFO - Sending Sequence #142 (884 bytes)
+2025-03-27 00:01:35,523 - INFO - Sending Sequence #143 (884 bytes)
+2025-03-27 00:01:35,523 - INFO - Out of sequence! Expected 226, got 142
+2025-03-27 00:01:35,523 - INFO - Packets Received: 369, Lost Packets: 143, Loss Rate: 38.75%, Uptime: 37.73s
+2025-03-27 00:01:35,523 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,524 - INFO - Out of sequence! Expected 226, got 143
+2025-03-27 00:01:35,524 - INFO - Packets Received: 370, Lost Packets: 144, Loss Rate: 38.92%, Uptime: 37.73s
+2025-03-27 00:01:35,524 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,542 - INFO - Sending Sequence #144 (884 bytes)
+2025-03-27 00:01:35,543 - INFO - Sending Sequence #145 (884 bytes)
+2025-03-27 00:01:35,543 - INFO - Out of sequence! Expected 226, got 144
+2025-03-27 00:01:35,543 - INFO - Packets Received: 371, Lost Packets: 145, Loss Rate: 39.08%, Uptime: 37.75s
+2025-03-27 00:01:35,543 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,544 - INFO - Out of sequence! Expected 226, got 145
+2025-03-27 00:01:35,544 - INFO - Packets Received: 372, Lost Packets: 146, Loss Rate: 39.25%, Uptime: 37.75s
+2025-03-27 00:01:35,545 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,562 - INFO - Sending Sequence #146 (884 bytes)
+2025-03-27 00:01:35,562 - INFO - Sending Sequence #147 (884 bytes)
+146
+2025-03-27 00:01:35,563 - INFO - Packets Received: 373, Lost Packets: 147, Loss Rate: 39.41%, Uptime: 37.77s
+2025-03-27 00:01:35,563 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,564 - INFO - Out of sequence! Expected 226, got 147
+2025-03-27 00:01:35,565 - INFO - Packets Received: 374, Lost Packets: 148, Loss Rate: 39.57%, Uptime: 37.77s
+2025-03-27 00:01:35,565 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,582 - INFO - Sending Sequence #148 (884 bytes)
+2025-03-27 00:01:35,582 - INFO - Sending Sequence #149 (884 bytes)
+2025-03-27 00:01:35,582 - INFO - Out of sequence! Expected 226, got 148
+2025-03-27 00:01:35,583 - INFO - Packets Received: 375, Lost Packets: 149, Loss Rate: 39.73%, Uptime: 37.79s
+2025-03-27 00:01:35,583 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,583 - INFO - Out of sequence! Expected 226, got 149
+2025-03-27 00:01:35,584 - INFO - Packets Received: 376, Lost Packets: 150, Loss Rate: 39.89%, Uptime: 37.79s
+2025-03-27 00:01:35,584 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,601 - INFO - Sending Sequence #150 (884 bytes)
+2025-03-27 00:01:35,601 - INFO - Sending Sequence #151 (884 bytes)
+2025-03-27 00:01:35,601 - INFO - Out of sequence! Expected 226, got 150
+2025-03-27 00:01:35,603 - INFO - Packets Received: 377, Lost Packets: 151, Loss Rate: 40.05%, Uptime: 37.81s
+2025-03-27 00:01:35,603 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,603 - INFO - Out of sequence! Expected 226, got 151
+2025-03-27 00:01:35,604 - INFO - Packets Received: 378, Lost Packets: 152, Loss Rate: 40.21%, Uptime: 37.81s
+2025-03-27 00:01:35,604 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,623 - INFO - Sending Sequence #152 (884 bytes)
+2025-03-27 00:01:35,623 - INFO - Sending Sequence #153 (884 bytes)
+2025-03-27 00:01:35,623 - INFO - Out of sequence! Expected 226, got 152
+2025-03-27 00:01:35,623 - INFO - Packets Received: 379, Lost Packets: 153, Loss Rate: 40.37%, Uptime: 37.83s
+2025-03-27 00:01:35,623 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,624 - INFO - Out of sequence! Expected 226, got 153
+2025-03-27 00:01:35,624 - INFO - Packets Received: 380, Lost Packets: 154, Loss Rate: 40.53%, Uptime: 37.83s
+2025-03-27 00:01:35,625 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,643 - INFO - Sending Sequence #154 (884 bytes)
+2025-03-27 00:01:35,643 - INFO - Sending Sequence #155 (884 bytes)
+2025-03-27 00:01:35,643 - INFO - Out of sequence! Expected 226, got 154
+2025-03-27 00:01:35,644 - INFO - Packets Received: 381, Lost Packets: 155, Loss Rate: 40.68%, Uptime: 37.85s
+2025-03-27 00:01:35,644 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,645 - INFO - Out of sequence! Expected 226, got 155
+2025-03-27 00:01:35,645 - INFO - Packets Received: 382, Lost Packets: 156, Loss Rate: 40.84%, Uptime: 37.86s
+2025-03-27 00:01:35,646 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,661 - INFO - Sending Sequence #156 (884 bytes)
+2025-03-27 00:01:35,662 - INFO - Out of sequence! Expected 226, got 156
+2025-03-27 00:01:35,663 - INFO - Packets Received: 383, Lost Packets: 157, Loss Rate: 40.99%, Uptime: 37.87s
+2025-03-27 00:01:35,663 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,663 - INFO - Out of sequence! Expected 226, got 157
+2025-03-27 00:01:35,664 - INFO - Packets Received: 384, Lost Packets: 158, Loss Rate: 41.15%, Uptime: 37.87s
+2025-03-27 00:01:35,664 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,682 - INFO - Sending Sequence #158 (884 bytes)
+2025-03-27 00:01:35,683 - INFO - Sending Sequence #159 (884 bytes)
+2025-03-27 00:01:35,683 - INFO - Out of sequence! Expected 226, got 158
+2025-03-27 00:01:35,683 - INFO - Packets Received: 385, Lost Packets: 159, Loss Rate: 41.30%, Uptime: 37.89s
+2025-03-27 00:01:35,684 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,684 - INFO - Out of sequence! Expected 226, got 159
+2025-03-27 00:01:35,685 - INFO - Packets Received: 386, Lost Packets: 160, Loss Rate: 41.45%, Uptime: 37.89s
+2025-03-27 00:01:35,685 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,702 - INFO - Sending Sequence #160 (884 bytes)
+2025-03-27 00:01:35,703 - INFO - Sending Sequence #161 (884 bytes)
+2025-03-27 00:01:35,703 - INFO - Out of sequence! Expected 226, got 160
+2025-03-27 00:01:35,703 - INFO - Packets Received: 387, Lost Packets: 161, Loss Rate: 41.60%, Uptime: 37.91s
+2025-03-27 00:01:35,703 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,704 - INFO - Out of sequence! Expected 226, got 161
+2025-03-27 00:01:35,704 - INFO - Packets Received: 388, Lost Packets: 162, Loss Rate: 41.75%, Uptime: 37.91s
+2025-03-27 00:01:35,705 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,722 - INFO - Sending Sequence #162 (884 bytes)
+2025-03-27 00:01:35,722 - INFO - Sending Sequence #163 (884 bytes)
+162
+2025-03-27 00:01:35,723 - INFO - Packets Received: 389, Lost Packets: 163, Loss Rate: 41.90%, Uptime: 37.93s
+2025-03-27 00:01:35,723 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,723 - INFO - Out of sequence! Expected 226, got 163
+2025-03-27 00:01:35,724 - INFO - Packets Received: 390, Lost Packets: 164, Loss Rate: 42.05%, Uptime: 37.93s
+2025-03-27 00:01:35,724 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,742 - INFO - Sending Sequence #164 (884 bytes)
+2025-03-27 00:01:35,742 - INFO - Sending Sequence #165 (884 bytes)
+2025-03-27 00:01:35,742 - INFO - Out of sequence! Expected 226, got 164
+2025-03-27 00:01:35,743 - INFO - Packets Received: 391, Lost Packets: 165, Loss Rate: 42.20%, Uptime: 37.95s
+2025-03-27 00:01:35,743 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,743 - INFO - Out of sequence! Expected 226, got 165
+2025-03-27 00:01:35,744 - INFO - Packets Received: 392, Lost Packets: 166, Loss Rate: 42.35%, Uptime: 37.95s
+2025-03-27 00:01:35,744 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,762 - INFO - Sending Sequence #166 (884 bytes)
+2025-03-27 00:01:35,762 - INFO - Out of sequence! Expected 226, got 166
+2025-03-27 00:01:35,763 - INFO - Packets Received: 393, Lost Packets: 167, Loss Rate: 42.49%, Uptime: 37.97s
+2025-03-27 00:01:35,763 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,764 - INFO - Out of sequence! Expected 226, got 167
+2025-03-27 00:01:35,764 - INFO - Packets Received: 394, Lost Packets: 168, Loss Rate: 42.64%, Uptime: 37.97s
+2025-03-27 00:01:35,765 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,782 - INFO - Sending Sequence #168 (884 bytes)
+2025-03-27 00:01:35,783 - INFO - Sending Sequence #169 (884 bytes)
+2025-03-27 00:01:35,783 - INFO - Out of sequence! Expected 226, got 168
+2025-03-27 00:01:35,783 - INFO - Packets Received: 395, Lost Packets: 169, Loss Rate: 42.78%, Uptime: 37.99s
+2025-03-27 00:01:35,784 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,784 - INFO - Out of sequence! Expected 226, got 169
+2025-03-27 00:01:35,785 - INFO - Packets Received: 396, Lost Packets: 170, Loss Rate: 42.93%, Uptime: 37.99s
+2025-03-27 00:01:35,785 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,802 - INFO - Sending Sequence #170 (884 bytes)
+2025-03-27 00:01:35,803 - INFO - Out of sequence! Expected 226, got 170
+2025-03-27 00:01:35,804 - INFO - Packets Received: 397, Lost Packets: 171, Loss Rate: 43.07%, Uptime: 38.01s
+2025-03-27 00:01:35,804 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,804 - INFO - Out of sequence! Expected 226, got 171
+2025-03-27 00:01:35,805 - INFO - Packets Received: 398, Lost Packets: 172, Loss Rate: 43.22%, Uptime: 38.01s
+2025-03-27 00:01:35,805 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,822 - INFO - Sending Sequence #172 (884 bytes)
+2025-03-27 00:01:35,823 - INFO - Sending Sequence #173 (884 bytes)
+2025-03-27 00:01:35,823 - INFO - Out of sequence! Expected 226, got 172
+2025-03-27 00:01:35,823 - INFO - Packets Received: 399, Lost Packets: 173, Loss Rate: 43.36%, Uptime: 38.03s
+2025-03-27 00:01:35,823 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,824 - INFO - Out of sequence! Expected 226, got 173
+2025-03-27 00:01:35,824 - INFO - Packets Received: 400, Lost Packets: 174, Loss Rate: 43.50%, Uptime: 38.03s
+2025-03-27 00:01:35,824 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,842 - INFO - Sending Sequence #174 (884 bytes)
+2025-03-27 00:01:35,842 - INFO - Sending Sequence #175 (884 bytes)
+2025-03-27 00:01:35,842 - INFO - Out of sequence! Expected 226, got 174
+2025-03-27 00:01:35,843 - INFO - Packets Received: 401, Lost Packets: 175, Loss Rate: 43.64%, Uptime: 38.05s
+2025-03-27 00:01:35,843 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,843 - INFO - Out of sequence! Expected 226, got 175
+2025-03-27 00:01:35,844 - INFO - Packets Received: 402, Lost Packets: 176, Loss Rate: 43.78%, Uptime: 38.05s
+2025-03-27 00:01:35,844 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,862 - INFO - Sending Sequence #176 (884 bytes)
+2025-03-27 00:01:35,862 - INFO - Out of sequence! Expected 226, got 176
+2025-03-27 00:01:35,863 - INFO - Packets Received: 403, Lost Packets: 177, Loss Rate: 43.92%, Uptime: 38.07s
+2025-03-27 00:01:35,863 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,864 - INFO - Out of sequence! Expected 226, got 177
+2025-03-27 00:01:35,864 - INFO - Packets Received: 404, Lost Packets: 178, Loss Rate: 44.06%, Uptime: 38.08s
+2025-03-27 00:01:35,865 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,882 - INFO - Sending Sequence #178 (884 bytes)
+2025-03-27 00:01:35,882 - INFO - Sending Sequence #179 (884 bytes)
+2025-03-27 00:01:35,882 - INFO - Out of sequence! Expected 226, got 178
+2025-03-27 00:01:35,883 - INFO - Packets Received: 405, Lost Packets: 179, Loss Rate: 44.20%, Uptime: 38.09s
+2025-03-27 00:01:35,883 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,883 - INFO - Out of sequence! Expected 226, got 179
+2025-03-27 00:01:35,884 - INFO - Packets Received: 406, Lost Packets: 180, Loss Rate: 44.33%, Uptime: 38.09s
+2025-03-27 00:01:35,884 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,902 - INFO - Sending Sequence #180 (884 bytes)
+2025-03-27 00:01:35,903 - INFO - Sending Sequence #181 (884 bytes)
+2025-03-27 00:01:35,903 - INFO - Out of sequence! Expected 226, got 180
+2025-03-27 00:01:35,903 - INFO - Packets Received: 407, Lost Packets: 181, Loss Rate: 44.47%, Uptime: 38.11s
+2025-03-27 00:01:35,903 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,904 - INFO - Out of sequence! Expected 226, got 181
+2025-03-27 00:01:35,904 - INFO - Packets Received: 408, Lost Packets: 182, Loss Rate: 44.61%, Uptime: 38.11s
+2025-03-27 00:01:35,904 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,922 - INFO - Sending Sequence #182 (884 bytes)
+2025-03-27 00:01:35,922 - INFO - Sending Sequence #183 (884 bytes)
+2025-03-27 00:01:35,922 - INFO - Out of sequence! Expected 226, got 182
+2025-03-27 00:01:35,923 - INFO - Packets Received: 409, Lost Packets: 183, Loss Rate: 44.74%, Uptime: 38.13s
+2025-03-27 00:01:35,923 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,923 - INFO - Out of sequence! Expected 226, got 183
+2025-03-27 00:01:35,924 - INFO - Packets Received: 410, Lost Packets: 184, Loss Rate: 44.88%, Uptime: 38.13s
+2025-03-27 00:01:35,924 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,943 - INFO - Sending Sequence #184 (884 bytes)
+2025-03-27 00:01:35,943 - INFO - Sending Sequence #185 (884 bytes)
+2025-03-27 00:01:35,943 - INFO - Out of sequence! Expected 226, got 184
+2025-03-27 00:01:35,944 - INFO - Packets Received: 411, Lost Packets: 185, Loss Rate: 45.01%, Uptime: 38.15s
+2025-03-27 00:01:35,944 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,944 - INFO - Out of sequence! Expected 226, got 185
+2025-03-27 00:01:35,945 - INFO - Packets Received: 412, Lost Packets: 186, Loss Rate: 45.15%, Uptime: 38.16s
+2025-03-27 00:01:35,945 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,961 - INFO - Sending Sequence #186 (884 bytes)
+2025-03-27 00:01:35,963 - INFO - Out of sequence! Expected 226, got 186
+2025-03-27 00:01:35,963 - INFO - Packets Received: 413, Lost Packets: 187, Loss Rate: 45.28%, Uptime: 38.17s
+2025-03-27 00:01:35,963 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,964 - INFO - Out of sequence! Expected 226, got 187
+2025-03-27 00:01:35,965 - INFO - Packets Received: 414, Lost Packets: 188, Loss Rate: 45.41%, Uptime: 38.17s
+2025-03-27 00:01:35,965 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,981 - INFO - Sending Sequence #188 (884 bytes)
+2025-03-27 00:01:35,982 - INFO - Sending Sequence #189 (884 bytes)
+2025-03-27 00:01:35,982 - INFO - Out of sequence! Expected 226, got 188
+2025-03-27 00:01:35,983 - INFO - Packets Received: 415, Lost Packets: 189, Loss Rate: 45.54%, Uptime: 38.19s
+2025-03-27 00:01:35,983 - INFO - Expecting Sequence #226
+2025-03-27 00:01:35,983 - INFO - Out of sequence! Expected 226, got 189
+2025-03-27 00:01:35,984 - INFO - Packets Received: 416, Lost Packets: 190, Loss Rate: 45.67%, Uptime: 38.19s
+2025-03-27 00:01:35,984 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,002 - INFO - Sending Sequence #190 (884 bytes)
+2025-03-27 00:01:36,002 - INFO - Sending Sequence #191 (884 bytes)
+190
+2025-03-27 00:01:36,003 - INFO - Packets Received: 417, Lost Packets: 191, Loss Rate: 45.80%, Uptime: 38.21s
+2025-03-27 00:01:36,003 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,003 - INFO - Out of sequence! Expected 226, got 191
+2025-03-27 00:01:36,004 - INFO - Packets Received: 418, Lost Packets: 192, Loss Rate: 45.93%, Uptime: 38.21s
+2025-03-27 00:01:36,004 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,021 - INFO - Sending Sequence #192 (884 bytes)
+2025-03-27 00:01:36,022 - INFO - Sending Sequence #193 (884 bytes)
+2025-03-27 00:01:36,022 - INFO - Out of sequence! Expected 226, got 192
+2025-03-27 00:01:36,022 - INFO - Packets Received: 419, Lost Packets: 193, Loss Rate: 46.06%, Uptime: 38.23s
+2025-03-27 00:01:36,022 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,023 - INFO - Out of sequence! Expected 226, got 193
+2025-03-27 00:01:36,023 - INFO - Packets Received: 420, Lost Packets: 194, Loss Rate: 46.19%, Uptime: 38.23s
+2025-03-27 00:01:36,023 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,042 - INFO - Sending Sequence #194 (884 bytes)
+2025-03-27 00:01:36,042 - INFO - Sending Sequence #195 (884 bytes)
+2025-03-27 00:01:36,043 - INFO - Out of sequence! Expected 226, got 194
+2025-03-27 00:01:36,043 - INFO - Packets Received: 421, Lost Packets: 195, Loss Rate: 46.32%, Uptime: 38.25s
+2025-03-27 00:01:36,043 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,043 - INFO - Out of sequence! Expected 226, got 195
+2025-03-27 00:01:36,044 - INFO - Packets Received: 422, Lost Packets: 196, Loss Rate: 46.45%, Uptime: 38.25s
+2025-03-27 00:01:36,044 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,062 - INFO - Sending Sequence #196 (884 bytes)
+2025-03-27 00:01:36,062 - INFO - Sending Sequence #197 (884 bytes)
+196
+2025-03-27 00:01:36,063 - INFO - Packets Received: 423, Lost Packets: 197, Loss Rate: 46.57%, Uptime: 38.27s
+2025-03-27 00:01:36,063 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,064 - INFO - Out of sequence! Expected 226, got 197
+2025-03-27 00:01:36,064 - INFO - Packets Received: 424, Lost Packets: 198, Loss Rate: 46.70%, Uptime: 38.27s
+2025-03-27 00:01:36,065 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,082 - INFO - Sending Sequence #198 (884 bytes)
+2025-03-27 00:01:36,083 - INFO - Sending Sequence #199 (884 bytes)
+2025-03-27 00:01:36,083 - INFO - Out of sequence! Expected 226, got 198
+2025-03-27 00:01:36,083 - INFO - Packets Received: 425, Lost Packets: 199, Loss Rate: 46.82%, Uptime: 38.29s
+2025-03-27 00:01:36,083 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,084 - INFO - Out of sequence! Expected 226, got 199
+2025-03-27 00:01:36,084 - INFO - Packets Received: 426, Lost Packets: 200, Loss Rate: 46.95%, Uptime: 38.29s
+2025-03-27 00:01:36,085 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,102 - INFO - Sending Sequence #200 (884 bytes)
+2025-03-27 00:01:36,103 - INFO - Sending Sequence #201 (884 bytes)
+2025-03-27 00:01:36,103 - INFO - Out of sequence! Expected 226, got 200
+2025-03-27 00:01:36,103 - INFO - Packets Received: 427, Lost Packets: 201, Loss Rate: 47.07%, Uptime: 38.31s
+2025-03-27 00:01:36,103 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,104 - INFO - Out of sequence! Expected 226, got 201
+2025-03-27 00:01:36,104 - INFO - Packets Received: 428, Lost Packets: 202, Loss Rate: 47.20%, Uptime: 38.31s
+2025-03-27 00:01:36,104 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,121 - INFO - Sending Sequence #202 (884 bytes)
+2025-03-27 00:01:36,122 - INFO - Sending Sequence #203 (884 bytes)
+2025-03-27 00:01:36,122 - INFO - Out of sequence! Expected 226, got 202
+2025-03-27 00:01:36,123 - INFO - Packets Received: 429, Lost Packets: 203, Loss Rate: 47.32%, Uptime: 38.33s
+2025-03-27 00:01:36,123 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,123 - INFO - Out of sequence! Expected 226, got 203
+2025-03-27 00:01:36,123 - INFO - Packets Received: 430, Lost Packets: 204, Loss Rate: 47.44%, Uptime: 38.33s
+2025-03-27 00:01:36,123 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,142 - INFO - Sending Sequence #204 (884 bytes)
+2025-03-27 00:01:36,143 - INFO - Out of sequence! Expected 226, got 204
+2025-03-27 00:01:36,144 - INFO - Packets Received: 431, Lost Packets: 205, Loss Rate: 47.56%, Uptime: 38.35s
+2025-03-27 00:01:36,144 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,144 - INFO - Out of sequence! Expected 226, got 205
+2025-03-27 00:01:36,145 - INFO - Packets Received: 432, Lost Packets: 206, Loss Rate: 47.69%, Uptime: 38.36s
+2025-03-27 00:01:36,145 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,161 - INFO - Sending Sequence #206 (884 bytes)
+2025-03-27 00:01:36,163 - INFO - Sending Sequence #207 (884 bytes)
+2025-03-27 00:01:36,163 - INFO - Out of sequence! Expected 226, got 206
+2025-03-27 00:01:36,163 - INFO - Packets Received: 433, Lost Packets: 207, Loss Rate: 47.81%, Uptime: 38.37s
+2025-03-27 00:01:36,163 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,164 - INFO - Out of sequence! Expected 226, got 207
+2025-03-27 00:01:36,165 - INFO - Packets Received: 434, Lost Packets: 208, Loss Rate: 47.93%, Uptime: 38.37s
+2025-03-27 00:01:36,165 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,181 - INFO - Sending Sequence #208 (884 bytes)
+2025-03-27 00:01:36,182 - INFO - Sending Sequence #209 (884 bytes)
+2025-03-27 00:01:36,182 - INFO - Out of sequence! Expected 226, got 208
+2025-03-27 00:01:36,182 - INFO - Packets Received: 435, Lost Packets: 209, Loss Rate: 48.05%, Uptime: 38.39s
+2025-03-27 00:01:36,183 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,183 - INFO - Out of sequence! Expected 226, got 209
+2025-03-27 00:01:36,184 - INFO - Packets Received: 436, Lost Packets: 210, Loss Rate: 48.17%, Uptime: 38.39s
+2025-03-27 00:01:36,184 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,203 - INFO - Sending Sequence #210 (884 bytes)
+2025-03-27 00:01:36,203 - INFO - Sending Sequence #211 (884 bytes)
+2025-03-27 00:01:36,203 - INFO - Out of sequence! Expected 226, got 210
+2025-03-27 00:01:36,203 - INFO - Packets Received: 437, Lost Packets: 211, Loss Rate: 48.28%, Uptime: 38.41s
+2025-03-27 00:01:36,203 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,204 - INFO - Out of sequence! Expected 226, got 211
+2025-03-27 00:01:36,204 - INFO - Packets Received: 438, Lost Packets: 212, Loss Rate: 48.40%, Uptime: 38.41s
+2025-03-27 00:01:36,205 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,222 - INFO - Sending Sequence #212 (884 bytes)
+2025-03-27 00:01:36,223 - INFO - Sending Sequence #213 (884 bytes)
+2025-03-27 00:01:36,223 - INFO - Out of sequence! Expected 226, got 212
+2025-03-27 00:01:36,224 - INFO - Packets Received: 439, Lost Packets: 213, Loss Rate: 48.52%, Uptime: 38.43s
+2025-03-27 00:01:36,224 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,224 - INFO - Out of sequence! Expected 226, got 213
+2025-03-27 00:01:36,225 - INFO - Packets Received: 440, Lost Packets: 214, Loss Rate: 48.64%, Uptime: 38.43s
+2025-03-27 00:01:36,225 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,242 - INFO - Sending Sequence #214 (884 bytes)
+2025-03-27 00:01:36,242 - INFO - Sending Sequence #215 (884 bytes)
+2025-03-27 00:01:36,242 - INFO - Out of sequence! Expected 226, got 214
+2025-03-27 00:01:36,243 - INFO - Packets Received: 441, Lost Packets: 215, Loss Rate: 48.75%, Uptime: 38.45s
+2025-03-27 00:01:36,243 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,243 - INFO - Out of sequence! Expected 226, got 215
+2025-03-27 00:01:36,244 - INFO - Packets Received: 442, Lost Packets: 216, Loss Rate: 48.87%, Uptime: 38.45s
+2025-03-27 00:01:36,244 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,261 - INFO - Sending Sequence #216 (884 bytes)
+2025-03-27 00:01:36,261 - INFO - Out of sequence! Expected 226, got 216
+2025-03-27 00:01:36,263 - INFO - Packets Received: 443, Lost Packets: 217, Loss Rate: 48.98%, Uptime: 38.47s
+2025-03-27 00:01:36,263 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,264 - INFO - Out of sequence! Expected 226, got 217
+2025-03-27 00:01:36,264 - INFO - Packets Received: 444, Lost Packets: 218, Loss Rate: 49.10%, Uptime: 38.47s
+2025-03-27 00:01:36,265 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,282 - INFO - Sending Sequence #218 (884 bytes)
+2025-03-27 00:01:36,282 - INFO - Sending Sequence #219 (884 bytes)
+218
+2025-03-27 00:01:36,283 - INFO - Packets Received: 445, Lost Packets: 219, Loss Rate: 49.21%, Uptime: 38.49s
+2025-03-27 00:01:36,283 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,284 - INFO - Out of sequence! Expected 226, got 219
+2025-03-27 00:01:36,284 - INFO - Packets Received: 446, Lost Packets: 220, Loss Rate: 49.33%, Uptime: 38.49s
+2025-03-27 00:01:36,284 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,302 - INFO - Sending Sequence #220 (884 bytes)
+2025-03-27 00:01:36,303 - INFO - Sending Sequence #221 (884 bytes)
+2025-03-27 00:01:36,303 - INFO - Out of sequence! Expected 226, got 220
+2025-03-27 00:01:36,303 - INFO - Packets Received: 447, Lost Packets: 221, Loss Rate: 49.44%, Uptime: 38.51s
+2025-03-27 00:01:36,303 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,304 - INFO - Out of sequence! Expected 226, got 221
+2025-03-27 00:01:36,304 - INFO - Packets Received: 448, Lost Packets: 222, Loss Rate: 49.55%, Uptime: 38.51s
+2025-03-27 00:01:36,304 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,322 - INFO - Sending Sequence #222 (884 bytes)
+2025-03-27 00:01:36,323 - INFO - Sending Sequence #223 (884 bytes)
+222
+2025-03-27 00:01:36,324 - INFO - Packets Received: 449, Lost Packets: 223, Loss Rate: 49.67%, Uptime: 38.54s
+2025-03-27 00:01:36,324 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,325 - INFO - Out of sequence! Expected 226, got 223
+2025-03-27 00:01:36,329 - INFO - Packets Received: 450, Lost Packets: 224, Loss Rate: 49.78%, Uptime: 38.54s
+2025-03-27 00:01:36,329 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,347 - INFO - Sending Sequence #224 (884 bytes)
+2025-03-27 00:01:36,359 - INFO - Out of sequence! Expected 226, got 224
+2025-03-27 00:01:36,360 - INFO - Packets Received: 451, Lost Packets: 225, Loss Rate: 49.89%, Uptime: 38.57s
+2025-03-27 00:01:36,361 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,362 - INFO - Out of sequence! Expected 226, got 225
+2025-03-27 00:01:36,364 - INFO - Sending Sequence #226 (884 bytes)
+2025-03-27 00:01:36,365 - INFO - Packets Received: 452, Lost Packets: 226, Loss Rate: 50.00%, Uptime: 38.57s
+2025-03-27 00:01:36,366 - INFO - Expecting Sequence #226
+2025-03-27 00:01:36,367 - INFO - Sending Sequence #227 (884 bytes)
+2025-03-27 00:01:36,368 - INFO - Received Sequence #226 (884 bytes)
+2025-03-27 00:01:36,369 - INFO - Packets Received: 453, Lost Packets: 226, Loss Rate: 49.89%, Uptime: 38.58s
+2025-03-27 00:01:36,369 - INFO - Expecting Sequence #227
+2025-03-27 00:01:36,369 - INFO - Received Sequence #227 (884 bytes)
+2025-03-27 00:01:36,370 - INFO - Packets Received: 454, Lost Packets: 226, Loss Rate: 49.78%, Uptime: 38.58s
+2025-03-27 00:01:36,370 - INFO - Expecting Sequence #228
+2025-03-27 00:01:36,382 - INFO - Sending Sequence #228 (884 bytes)
+2025-03-27 00:01:36,383 - INFO - Received Sequence #228 (884 bytes)
+2025-03-27 00:01:36,384 - INFO - Packets Received: 455, Lost Packets: 226, Loss Rate: 49.67%, Uptime: 38.59s
+2025-03-27 00:01:36,384 - INFO - Sending Sequence #229 (884 bytes)
+2025-03-27 00:01:36,384 - INFO - Expecting Sequence #229
+2025-03-27 00:01:36,386 - INFO - Received Sequence #229 (884 bytes)
+2025-03-27 00:01:36,387 - INFO - Packets Received: 456, Lost Packets: 226, Loss Rate: 49.56%, Uptime: 38.60s
+2025-03-27 00:01:36,387 - INFO - Expecting Sequence #230
+2025-03-27 00:01:36,407 - INFO - Sending Sequence #230 (884 bytes)
+2025-03-27 00:01:36,408 - INFO - Received Sequence #230 (884 bytes)
+2025-03-27 00:01:36,409 - INFO - Packets Received: 457, Lost Packets: 226, Loss Rate: 49.45%, Uptime: 38.62s
+2025-03-27 00:01:36,409 - INFO - Expecting Sequence #231
+2025-03-27 00:01:36,410 - INFO - Received Sequence #231 (884 bytes)
+2025-03-27 00:01:36,411 - INFO - Packets Received: 458, Lost Packets: 226, Loss Rate: 49.34%, Uptime: 38.62s
+2025-03-27 00:01:36,411 - INFO - Expecting Sequence #232
+2025-03-27 00:01:36,428 - INFO - Sending Sequence #232 (884 bytes)
+2025-03-27 00:01:36,430 - INFO - Received Sequence #232 (884 bytes)
+2025-03-27 00:01:36,430 - INFO - Packets Received: 459, Lost Packets: 226, Loss Rate: 49.24%, Uptime: 38.64s
+2025-03-27 00:01:36,431 - INFO - Expecting Sequence #233
+2025-03-27 00:01:36,431 - INFO - Received Sequence #233 (884 bytes)
+2025-03-27 00:01:36,432 - INFO - Packets Received: 460, Lost Packets: 226, Loss Rate: 49.13%, Uptime: 38.64s
+2025-03-27 00:01:36,432 - INFO - Expecting Sequence #234
+2025-03-27 00:01:36,442 - INFO - Sending Sequence #234 (884 bytes)
+2025-03-27 00:01:36,443 - INFO - Sending Sequence #235 (884 bytes)
+2025-03-27 00:01:36,443 - INFO - Received Sequence #234 (884 bytes)
+2025-03-27 00:01:36,443 - INFO - Packets Received: 461, Lost Packets: 226, Loss Rate: 49.02%, Uptime: 38.65s
+2025-03-27 00:01:36,444 - INFO - Expecting Sequence #235
+2025-03-27 00:01:36,444 - INFO - Received Sequence #235 (884 bytes)
+2025-03-27 00:01:36,445 - INFO - Packets Received: 462, Lost Packets: 226, Loss Rate: 48.92%, Uptime: 38.66s
+2025-03-27 00:01:36,445 - INFO - Expecting Sequence #236
+2025-03-27 00:01:36,462 - INFO - Sending Sequence #236 (884 bytes)
+2025-03-27 00:01:36,463 - INFO - Received Sequence #236 (884 bytes)
+2025-03-27 00:01:36,464 - INFO - Packets Received: 463, Lost Packets: 226, Loss Rate: 48.81%, Uptime: 38.67s
+2025-03-27 00:01:36,464 - INFO - Expecting Sequence #237
+2025-03-27 00:01:36,464 - INFO - Received Sequence #237 (884 bytes)
+2025-03-27 00:01:36,465 - INFO - Packets Received: 464, Lost Packets: 226, Loss Rate: 48.71%, Uptime: 38.68s
+2025-03-27 00:01:36,465 - INFO - Expecting Sequence #238
+2025-03-27 00:01:36,481 - INFO - Sending Sequence #238 (884 bytes)
+2025-03-27 00:01:36,481 - INFO - Sending Sequence #239 (884 bytes)
+2025-03-27 00:01:36,481 - INFO - Received Sequence #238 (884 bytes)
+2025-03-27 00:01:36,481 - INFO - Packets Received: 465, Lost Packets: 226, Loss Rate: 48.60%, Uptime: 38.69s
+2025-03-27 00:01:36,483 - INFO - Expecting Sequence #239
+2025-03-27 00:01:36,483 - INFO - Received Sequence #239 (884 bytes)
+2025-03-27 00:01:36,483 - INFO - Packets Received: 466, Lost Packets: 226, Loss Rate: 48.50%, Uptime: 38.69s
+2025-03-27 00:01:36,483 - INFO - Expecting Sequence #240
+2025-03-27 00:01:36,501 - INFO - Sending Sequence #240 (884 bytes)
+2025-03-27 00:01:36,503 - INFO - Sending Sequence #241 (884 bytes)
+2025-03-27 00:01:36,503 - INFO - Received Sequence #240 (884 bytes)
+2025-03-27 00:01:36,503 - INFO - Packets Received: 467, Lost Packets: 226, Loss Rate: 48.39%, Uptime: 38.71s
+2025-03-27 00:01:36,504 - INFO - Expecting Sequence #241
+2025-03-27 00:01:36,504 - INFO - Received Sequence #241 (884 bytes)
+2025-03-27 00:01:36,505 - INFO - Packets Received: 468, Lost Packets: 226, Loss Rate: 48.29%, Uptime: 38.71s
+2025-03-27 00:01:36,505 - INFO - Expecting Sequence #242
+2025-03-27 00:01:36,522 - INFO - Sending Sequence #242 (884 bytes)
+2025-03-27 00:01:36,522 - INFO - Sending Sequence #243 (884 bytes)
+2025-03-27 00:01:36,522 - INFO - Received Sequence #242 (884 bytes)
+2025-03-27 00:01:36,522 - INFO - Packets Received: 469, Lost Packets: 226, Loss Rate: 48.19%, Uptime: 38.73s
+2025-03-27 00:01:36,522 - INFO - Expecting Sequence #243
+2025-03-27 00:01:36,524 - INFO - Received Sequence #243 (884 bytes)
+2025-03-27 00:01:36,524 - INFO - Packets Received: 470, Lost Packets: 226, Loss Rate: 48.09%, Uptime: 38.73s
+2025-03-27 00:01:36,524 - INFO - Expecting Sequence #244
+2025-03-27 00:01:36,542 - INFO - Sending Sequence #244 (884 bytes)
+2025-03-27 00:01:36,543 - INFO - Sending Sequence #245 (884 bytes)
+2025-03-27 00:01:36,543 - INFO - Received Sequence #244 (884 bytes)
+2025-03-27 00:01:36,543 - INFO - Packets Received: 471, Lost Packets: 226, Loss Rate: 47.98%, Uptime: 38.75s
+2025-03-27 00:01:36,543 - INFO - Expecting Sequence #245
+2025-03-27 00:01:36,544 - INFO - Received Sequence #245 (884 bytes)
+2025-03-27 00:01:36,544 - INFO - Packets Received: 472, Lost Packets: 226, Loss Rate: 47.88%, Uptime: 38.75s
+2025-03-27 00:01:36,545 - INFO - Expecting Sequence #246
+2025-03-27 00:01:36,561 - INFO - Sending Sequence #246 (884 bytes)
+2025-03-27 00:01:36,563 - INFO - Sending Sequence #247 (884 bytes)
+2025-03-27 00:01:36,563 - INFO - Received Sequence #246 (884 bytes)
+2025-03-27 00:01:36,563 - INFO - Packets Received: 473, Lost Packets: 226, Loss Rate: 47.78%, Uptime: 38.77s
+2025-03-27 00:01:36,563 - INFO - Expecting Sequence #247
+2025-03-27 00:01:36,564 - INFO - Received Sequence #247 (884 bytes)
+2025-03-27 00:01:36,565 - INFO - Packets Received: 474, Lost Packets: 226, Loss Rate: 47.68%, Uptime: 38.78s
+2025-03-27 00:01:36,565 - INFO - Expecting Sequence #248
+2025-03-27 00:01:36,581 - INFO - Sending Sequence #248 (884 bytes)
+2025-03-27 00:01:36,582 - INFO - Received Sequence #248 (884 bytes)
+2025-03-27 00:01:36,583 - INFO - Packets Received: 475, Lost Packets: 226, Loss Rate: 47.58%, Uptime: 38.79s
+2025-03-27 00:01:36,583 - INFO - Expecting Sequence #249
+2025-03-27 00:01:36,583 - INFO - Received Sequence #249 (884 bytes)
+2025-03-27 00:01:36,584 - INFO - Packets Received: 476, Lost Packets: 226, Loss Rate: 47.48%, Uptime: 38.79s
+2025-03-27 00:01:36,584 - INFO - Expecting Sequence #250
+2025-03-27 00:01:36,602 - INFO - Sending Sequence #250 (884 bytes)
+2025-03-27 00:01:36,603 - INFO - Sending Sequence #251 (884 bytes)
+2025-03-27 00:01:36,603 - INFO - Received Sequence #250 (884 bytes)
+2025-03-27 00:01:36,603 - INFO - Packets Received: 477, Lost Packets: 226, Loss Rate: 47.38%, Uptime: 38.81s
+2025-03-27 00:01:36,603 - INFO - Expecting Sequence #251
+2025-03-27 00:01:36,603 - INFO - Received Sequence #251 (884 bytes)
+2025-03-27 00:01:36,604 - INFO - Packets Received: 478, Lost Packets: 226, Loss Rate: 47.28%, Uptime: 38.81s
+2025-03-27 00:01:36,604 - INFO - Expecting Sequence #252
+2025-03-27 00:01:36,622 - INFO - Sending Sequence #252 (884 bytes)
+2025-03-27 00:01:36,622 - INFO - Sending Sequence #253 (884 bytes)
+2025-03-27 00:01:36,622 - INFO - Received Sequence #252 (884 bytes)
+2025-03-27 00:01:36,623 - INFO - Packets Received: 479, Lost Packets: 226, Loss Rate: 47.18%, Uptime: 38.83s
+2025-03-27 00:01:36,623 - INFO - Expecting Sequence #253
+2025-03-27 00:01:36,623 - INFO - Received Sequence #253 (884 bytes)
+2025-03-27 00:01:36,624 - INFO - Packets Received: 480, Lost Packets: 226, Loss Rate: 47.08%, Uptime: 38.83s
+2025-03-27 00:01:36,624 - INFO - Expecting Sequence #254
+2025-03-27 00:01:36,642 - INFO - Sending Sequence #254 (884 bytes)
+2025-03-27 00:01:36,642 - INFO - Sending Sequence #255 (884 bytes)
+2025-03-27 00:01:36,642 - INFO - Received Sequence #254 (884 bytes)
+2025-03-27 00:01:36,643 - INFO - Packets Received: 481, Lost Packets: 226, Loss Rate: 46.99%, Uptime: 38.85s
+2025-03-27 00:01:36,643 - INFO - Expecting Sequence #255
+2025-03-27 00:01:36,643 - INFO - Received Sequence #255 (884 bytes)
+2025-03-27 00:01:36,644 - INFO - Packets Received: 482, Lost Packets: 226, Loss Rate: 46.89%, Uptime: 38.85s
+2025-03-27 00:01:36,644 - INFO - Expecting Sequence #256
+2025-03-27 00:01:36,661 - INFO - Sending Sequence #256 (884 bytes)
+2025-03-27 00:01:36,661 - INFO - Sending Sequence #257 (884 bytes)
+2025-03-27 00:01:36,661 - INFO - Received Sequence #256 (884 bytes)
+2025-03-27 00:01:36,663 - INFO - Packets Received: 483, Lost Packets: 226, Loss Rate: 46.79%, Uptime: 38.87s
+2025-03-27 00:01:36,663 - INFO - Expecting Sequence #257
+2025-03-27 00:01:36,664 - INFO - Received Sequence #257 (884 bytes)
+2025-03-27 00:01:36,665 - INFO - Packets Received: 484, Lost Packets: 226, Loss Rate: 46.69%, Uptime: 38.87s
+2025-03-27 00:01:36,665 - INFO - Expecting Sequence #258
+2025-03-27 00:01:36,682 - INFO - Sending Sequence #258 (884 bytes)
+2025-03-27 00:01:36,682 - INFO - Sending Sequence #259 (884 bytes)
+2025-03-27 00:01:36,682 - INFO - Received Sequence #258 (884 bytes)
+2025-03-27 00:01:36,683 - INFO - Packets Received: 485, Lost Packets: 226, Loss Rate: 46.60%, Uptime: 38.89s
+2025-03-27 00:01:36,683 - INFO - Expecting Sequence #259
+2025-03-27 00:01:36,683 - INFO - Received Sequence #259 (884 bytes)
+2025-03-27 00:01:36,684 - INFO - Packets Received: 486, Lost Packets: 226, Loss Rate: 46.50%, Uptime: 38.89s
+2025-03-27 00:01:36,684 - INFO - Expecting Sequence #260
+2025-03-27 00:01:36,703 - INFO - Sending Sequence #260 (884 bytes)
+2025-03-27 00:01:36,703 - INFO - Sending Sequence #261 (884 bytes)
+2025-03-27 00:01:36,703 - INFO - Received Sequence #260 (884 bytes)
+2025-03-27 00:01:36,703 - INFO - Packets Received: 487, Lost Packets: 226, Loss Rate: 46.41%, Uptime: 38.91s
+2025-03-27 00:01:36,704 - INFO - Expecting Sequence #261
+2025-03-27 00:01:36,704 - INFO - Received Sequence #261 (884 bytes)
+2025-03-27 00:01:36,705 - INFO - Packets Received: 488, Lost Packets: 226, Loss Rate: 46.31%, Uptime: 38.91s
+2025-03-27 00:01:36,705 - INFO - Expecting Sequence #262
+2025-03-27 00:01:36,722 - INFO - Sending Sequence #262 (884 bytes)
+2025-03-27 00:01:36,722 - INFO - Sending Sequence #263 (884 bytes)
+2025-03-27 00:01:36,722 - INFO - Received Sequence #262 (884 bytes)
+2025-03-27 00:01:36,723 - INFO - Packets Received: 489, Lost Packets: 226, Loss Rate: 46.22%, Uptime: 38.93s
+2025-03-27 00:01:36,723 - INFO - Expecting Sequence #263
+2025-03-27 00:01:36,724 - INFO - Received Sequence #263 (884 bytes)
+2025-03-27 00:01:36,724 - INFO - Packets Received: 490, Lost Packets: 226, Loss Rate: 46.12%, Uptime: 38.93s
+2025-03-27 00:01:36,724 - INFO - Expecting Sequence #264
+2025-03-27 00:01:36,742 - INFO - Sending Sequence #264 (884 bytes)
+2025-03-27 00:01:36,743 - INFO - Sending Sequence #265 (884 bytes)
+2025-03-27 00:01:36,743 - INFO - Received Sequence #264 (884 bytes)
+2025-03-27 00:01:36,743 - INFO - Packets Received: 491, Lost Packets: 226, Loss Rate: 46.03%, Uptime: 38.95s
+2025-03-27 00:01:36,743 - INFO - Expecting Sequence #265
+2025-03-27 00:01:36,744 - INFO - Received Sequence #265 (884 bytes)
+2025-03-27 00:01:36,744 - INFO - Packets Received: 492, Lost Packets: 226, Loss Rate: 45.93%, Uptime: 38.95s
+2025-03-27 00:01:36,745 - INFO - Expecting Sequence #266
+2025-03-27 00:01:36,761 - INFO - Sending Sequence #266 (884 bytes)
+2025-03-27 00:01:36,763 - INFO - Sending Sequence #267 (884 bytes)
+
+2025-03-27 00:01:36,763 - INFO - Packets Received: 493, Lost Packets: 226, Loss Rate: 45.84%, Uptime: 38.97s
+2025-03-27 00:01:36,763 - INFO - Expecting Sequence #267
+2025-03-27 00:01:36,764 - INFO - Received Sequence #267 (884 bytes)
+2025-03-27 00:01:36,764 - INFO - Packets Received: 494, Lost Packets: 226, Loss Rate: 45.75%, Uptime: 38.97s
+2025-03-27 00:01:36,765 - INFO - Expecting Sequence #268
+2025-03-27 00:01:36,782 - INFO - Sending Sequence #268 (884 bytes)
+2025-03-27 00:01:36,783 - INFO - Sending Sequence #269 (884 bytes)
+
+2025-03-27 00:01:36,783 - INFO - Packets Received: 495, Lost Packets: 226, Loss Rate: 45.66%, Uptime: 38.99s
+2025-03-27 00:01:36,783 - INFO - Expecting Sequence #269
+2025-03-27 00:01:36,784 - INFO - Received Sequence #269 (884 bytes)
+2025-03-27 00:01:36,784 - INFO - Packets Received: 496, Lost Packets: 226, Loss Rate: 45.56%, Uptime: 38.99s
+2025-03-27 00:01:36,785 - INFO - Expecting Sequence #270
+2025-03-27 00:01:36,802 - INFO - Sending Sequence #270 (884 bytes)
+2025-03-27 00:01:36,803 - INFO - Sending Sequence #271 (884 bytes)
+2025-03-27 00:01:36,803 - INFO - Received Sequence #270 (884 bytes)
+2025-03-27 00:01:36,803 - INFO - Packets Received: 497, Lost Packets: 226, Loss Rate: 45.47%, Uptime: 39.01s
+2025-03-27 00:01:36,804 - INFO - Expecting Sequence #271
+2025-03-27 00:01:36,804 - INFO - Received Sequence #271 (884 bytes)
+2025-03-27 00:01:36,804 - INFO - Packets Received: 498, Lost Packets: 226, Loss Rate: 45.38%, Uptime: 39.01s
+2025-03-27 00:01:36,805 - INFO - Expecting Sequence #272
+2025-03-27 00:01:36,822 - INFO - Sending Sequence #272 (884 bytes)
+2025-03-27 00:01:36,823 - INFO - Sending Sequence #273 (884 bytes)
+2025-03-27 00:01:36,823 - INFO - Received Sequence #272 (884 bytes)
+2025-03-27 00:01:36,823 - INFO - Packets Received: 499, Lost Packets: 226, Loss Rate: 45.29%, Uptime: 39.03s
+2025-03-27 00:01:36,823 - INFO - Expecting Sequence #273
+2025-03-27 00:01:36,823 - INFO - Received Sequence #273 (884 bytes)
+2025-03-27 00:01:36,824 - INFO - Packets Received: 500, Lost Packets: 226, Loss Rate: 45.20%, Uptime: 39.03s
+2025-03-27 00:01:36,824 - INFO - Expecting Sequence #274
+2025-03-27 00:01:36,843 - INFO - Sending Sequence #274 (884 bytes)
+2025-03-27 00:01:36,843 - INFO - Sending Sequence #275 (884 bytes)
+2025-03-27 00:01:36,843 - INFO - Received Sequence #274 (884 bytes)
+2025-03-27 00:01:36,843 - INFO - Packets Received: 501, Lost Packets: 226, Loss Rate: 45.11%, Uptime: 39.05s
+2025-03-27 00:01:36,843 - INFO - Expecting Sequence #275
+2025-03-27 00:01:36,844 - INFO - Received Sequence #275 (884 bytes)
+2025-03-27 00:01:36,844 - INFO - Packets Received: 502, Lost Packets: 226, Loss Rate: 45.02%, Uptime: 39.05s
+2025-03-27 00:01:36,845 - INFO - Expecting Sequence #276
+2025-03-27 00:01:36,861 - INFO - Sending Sequence #276 (884 bytes)
+2025-03-27 00:01:36,863 - INFO - Received Sequence #276 (884 bytes)
+2025-03-27 00:01:36,863 - INFO - Sending Sequence #277 (884 bytes)
+2025-03-27 00:01:36,863 - INFO - Packets Received: 503, Lost Packets: 226, Loss Rate: 44.93%, Uptime: 39.07s
+2025-03-27 00:01:36,863 - INFO - Expecting Sequence #277
+2025-03-27 00:01:36,864 - INFO - Received Sequence #277 (884 bytes)
+2025-03-27 00:01:36,865 - INFO - Packets Received: 504, Lost Packets: 226, Loss Rate: 44.84%, Uptime: 39.07s
+2025-03-27 00:01:36,865 - INFO - Expecting Sequence #278
+2025-03-27 00:01:36,882 - INFO - Sending Sequence #278 (884 bytes)
+2025-03-27 00:01:36,882 - INFO - Sending Sequence #279 (884 bytes)
+2025-03-27 00:01:36,883 - INFO - Received Sequence #278 (884 bytes)
+2025-03-27 00:01:36,883 - INFO - Packets Received: 505, Lost Packets: 226, Loss Rate: 44.75%, Uptime: 39.09s
+2025-03-27 00:01:36,883 - INFO - Expecting Sequence #279
+2025-03-27 00:01:36,884 - INFO - Received Sequence #279 (884 bytes)
+2025-03-27 00:01:36,884 - INFO - Packets Received: 506, Lost Packets: 226, Loss Rate: 44.66%, Uptime: 39.09s
+2025-03-27 00:01:36,884 - INFO - Expecting Sequence #280
+2025-03-27 00:01:36,901 - INFO - Sending Sequence #280 (884 bytes)
+2025-03-27 00:01:36,903 - INFO - Sending Sequence #281 (884 bytes)
+2025-03-27 00:01:36,903 - INFO - Received Sequence #280 (884 bytes)
+2025-03-27 00:01:36,904 - INFO - Packets Received: 507, Lost Packets: 226, Loss Rate: 44.58%, Uptime: 39.11s
+2025-03-27 00:01:36,904 - INFO - Expecting Sequence #281
+2025-03-27 00:01:36,904 - INFO - Received Sequence #281 (884 bytes)
+2025-03-27 00:01:36,905 - INFO - Packets Received: 508, Lost Packets: 226, Loss Rate: 44.49%, Uptime: 39.12s
+2025-03-27 00:01:36,905 - INFO - Expecting Sequence #282
+2025-03-27 00:01:36,922 - INFO - Sending Sequence #282 (884 bytes)
+2025-03-27 00:01:36,922 - INFO - Sending Sequence #283 (884 bytes)
+2025-03-27 00:01:36,922 - INFO - Received Sequence #282 (884 bytes)
+2025-03-27 00:01:36,924 - INFO - Packets Received: 509, Lost Packets: 226, Loss Rate: 44.40%, Uptime: 39.13s
+2025-03-27 00:01:36,924 - INFO - Expecting Sequence #283
+2025-03-27 00:01:36,924 - INFO - Received Sequence #283 (884 bytes)
+2025-03-27 00:01:36,924 - INFO - Packets Received: 510, Lost Packets: 226, Loss Rate: 44.31%, Uptime: 39.13s
+2025-03-27 00:01:36,925 - INFO - Expecting Sequence #284
+2025-03-27 00:01:36,942 - INFO - Sending Sequence #284 (884 bytes)
+2025-03-27 00:01:36,943 - INFO - Sending Sequence #285 (884 bytes)
+2025-03-27 00:01:36,943 - INFO - Received Sequence #284 (884 bytes)
+2025-03-27 00:01:36,943 - INFO - Packets Received: 511, Lost Packets: 226, Loss Rate: 44.23%, Uptime: 39.15s
+2025-03-27 00:01:36,943 - INFO - Expecting Sequence #285
+2025-03-27 00:01:36,944 - INFO - Received Sequence #285 (884 bytes)
+2025-03-27 00:01:36,945 - INFO - Packets Received: 512, Lost Packets: 226, Loss Rate: 44.14%, Uptime: 39.15s
+2025-03-27 00:01:36,945 - INFO - Expecting Sequence #286
+2025-03-27 00:01:36,961 - INFO - Sending Sequence #286 (884 bytes)
+2025-03-27 00:01:36,961 - INFO - Sending Sequence #287 (884 bytes)
+2025-03-27 00:01:36,961 - INFO - Received Sequence #286 (884 bytes)
+2025-03-27 00:01:36,963 - INFO - Packets Received: 513, Lost Packets: 226, Loss Rate: 44.05%, Uptime: 39.17s
+2025-03-27 00:01:36,963 - INFO - Expecting Sequence #287
+2025-03-27 00:01:36,964 - INFO - Received Sequence #287 (884 bytes)
+2025-03-27 00:01:36,965 - INFO - Packets Received: 514, Lost Packets: 226, Loss Rate: 43.97%, Uptime: 39.17s
+2025-03-27 00:01:36,965 - INFO - Expecting Sequence #288
+2025-03-27 00:01:36,982 - INFO - Sending Sequence #288 (884 bytes)
+2025-03-27 00:01:36,983 - INFO - Sending Sequence #289 (884 bytes)
+2025-03-27 00:01:36,983 - INFO - Received Sequence #288 (884 bytes)
+2025-03-27 00:01:36,983 - INFO - Packets Received: 515, Lost Packets: 226, Loss Rate: 43.88%, Uptime: 39.19s
+2025-03-27 00:01:36,983 - INFO - Expecting Sequence #289
+2025-03-27 00:01:36,984 - INFO - Received Sequence #289 (884 bytes)
+2025-03-27 00:01:36,984 - INFO - Packets Received: 516, Lost Packets: 226, Loss Rate: 43.80%, Uptime: 39.19s
+2025-03-27 00:01:36,985 - INFO - Expecting Sequence #290
+2025-03-27 00:01:37,002 - INFO - Sending Sequence #290 (884 bytes)
+2025-03-27 00:01:37,002 - INFO - Sending Sequence #291 (884 bytes)
+
+2025-03-27 00:01:37,003 - INFO - Packets Received: 517, Lost Packets: 226, Loss Rate: 43.71%, Uptime: 39.21s
+2025-03-27 00:01:37,003 - INFO - Expecting Sequence #291
+2025-03-27 00:01:37,004 - INFO - Received Sequence #291 (884 bytes)
+2025-03-27 00:01:37,004 - INFO - Packets Received: 518, Lost Packets: 226, Loss Rate: 43.63%, Uptime: 39.21s
+2025-03-27 00:01:37,004 - INFO - Expecting Sequence #292
+2025-03-27 00:01:37,022 - INFO - Sending Sequence #292 (884 bytes)
+2025-03-27 00:01:37,022 - INFO - Sending Sequence #293 (884 bytes)
+2025-03-27 00:01:37,022 - INFO - Received Sequence #292 (884 bytes)
+2025-03-27 00:01:37,024 - INFO - Packets Received: 519, Lost Packets: 226, Loss Rate: 43.55%, Uptime: 39.23s
+2025-03-27 00:01:37,024 - INFO - Expecting Sequence #293
+2025-03-27 00:01:37,024 - INFO - Received Sequence #293 (884 bytes)
+2025-03-27 00:01:37,025 - INFO - Packets Received: 520, Lost Packets: 226, Loss Rate: 43.46%, Uptime: 39.24s
+2025-03-27 00:01:37,025 - INFO - Expecting Sequence #294
+2025-03-27 00:01:37,042 - INFO - Sending Sequence #294 (884 bytes)
+2025-03-27 00:01:37,042 - INFO - Sending Sequence #295 (884 bytes)
+2025-03-27 00:01:37,042 - INFO - Received Sequence #294 (884 bytes)
+2025-03-27 00:01:37,042 - INFO - Packets Received: 521, Lost Packets: 226, Loss Rate: 43.38%, Uptime: 39.25s
+2025-03-27 00:01:37,043 - INFO - Expecting Sequence #295
+2025-03-27 00:01:37,043 - INFO - Received Sequence #295 (884 bytes)
+2025-03-27 00:01:37,044 - INFO - Packets Received: 522, Lost Packets: 226, Loss Rate: 43.30%, Uptime: 39.25s
+2025-03-27 00:01:37,044 - INFO - Expecting Sequence #296
+2025-03-27 00:01:37,061 - INFO - Sending Sequence #296 (884 bytes)
+2025-03-27 00:01:37,062 - INFO - Sending Sequence #297 (884 bytes)
+2025-03-27 00:01:37,062 - INFO - Received Sequence #296 (884 bytes)
+2025-03-27 00:01:37,062 - INFO - Packets Received: 523, Lost Packets: 226, Loss Rate: 43.21%, Uptime: 39.27s
+2025-03-27 00:01:37,063 - INFO - Expecting Sequence #297
+2025-03-27 00:01:37,063 - INFO - Received Sequence #297 (884 bytes)
+2025-03-27 00:01:37,064 - INFO - Packets Received: 524, Lost Packets: 226, Loss Rate: 43.13%, Uptime: 39.27s
+2025-03-27 00:01:37,064 - INFO - Expecting Sequence #298
+2025-03-27 00:01:37,081 - INFO - Sending Sequence #298 (884 bytes)
+2025-03-27 00:01:37,081 - INFO - Sending Sequence #299 (884 bytes)
+2025-03-27 00:01:37,083 - INFO - Received Sequence #298 (884 bytes)
+2025-03-27 00:01:37,083 - INFO - Packets Received: 525, Lost Packets: 226, Loss Rate: 43.05%, Uptime: 39.29s
+2025-03-27 00:01:37,083 - INFO - Expecting Sequence #299
+2025-03-27 00:01:37,084 - INFO - Received Sequence #299 (884 bytes)
+2025-03-27 00:01:37,084 - INFO - Packets Received: 526, Lost Packets: 226, Loss Rate: 42.97%, Uptime: 39.29s
+2025-03-27 00:01:37,085 - INFO - Expecting Sequence #300
+2025-03-27 00:01:37,102 - INFO - Sending Sequence #300 (884 bytes)
+2025-03-27 00:01:37,103 - INFO - Sending Sequence #301 (884 bytes)
+2025-03-27 00:01:37,103 - INFO - Received Sequence #300 (884 bytes)
+2025-03-27 00:01:37,103 - INFO - Packets Received: 527, Lost Packets: 226, Loss Rate: 42.88%, Uptime: 39.31s
+2025-03-27 00:01:37,103 - INFO - Expecting Sequence #301
+2025-03-27 00:01:37,104 - INFO - Received Sequence #301 (884 bytes)
+2025-03-27 00:01:37,104 - INFO - Packets Received: 528, Lost Packets: 226, Loss Rate: 42.80%, Uptime: 39.31s
+2025-03-27 00:01:37,104 - INFO - Expecting Sequence #302
+2025-03-27 00:01:37,122 - INFO - Sending Sequence #302 (884 bytes)
+2025-03-27 00:01:37,122 - INFO - Sending Sequence #303 (884 bytes)
+2025-03-27 00:01:37,122 - INFO - Received Sequence #302 (884 bytes)
+2025-03-27 00:01:37,123 - INFO - Packets Received: 529, Lost Packets: 226, Loss Rate: 42.72%, Uptime: 39.33s
+2025-03-27 00:01:37,123 - INFO - Expecting Sequence #303
+2025-03-27 00:01:37,123 - INFO - Received Sequence #303 (884 bytes)
+2025-03-27 00:01:37,125 - INFO - Packets Received: 530, Lost Packets: 226, Loss Rate: 42.64%, Uptime: 39.33s
+2025-03-27 00:01:37,125 - INFO - Expecting Sequence #304
+2025-03-27 00:01:37,142 - INFO - Sending Sequence #304 (884 bytes)
+2025-03-27 00:01:37,142 - INFO - Sending Sequence #305 (884 bytes)
+2025-03-27 00:01:37,142 - INFO - Received Sequence #304 (884 bytes)
+2025-03-27 00:01:37,143 - INFO - Packets Received: 531, Lost Packets: 226, Loss Rate: 42.56%, Uptime: 39.35s
+2025-03-27 00:01:37,143 - INFO - Expecting Sequence #305
+2025-03-27 00:01:37,143 - INFO - Received Sequence #305 (884 bytes)
+2025-03-27 00:01:37,144 - INFO - Packets Received: 532, Lost Packets: 226, Loss Rate: 42.48%, Uptime: 39.35s
+2025-03-27 00:01:37,144 - INFO - Expecting Sequence #306
+2025-03-27 00:01:37,161 - INFO - Sending Sequence #306 (884 bytes)
+2025-03-27 00:01:37,161 - INFO - Sending Sequence #307 (884 bytes)
+2025-03-27 00:01:37,163 - INFO - Received Sequence #306 (884 bytes)
+2025-03-27 00:01:37,163 - INFO - Packets Received: 533, Lost Packets: 226, Loss Rate: 42.40%, Uptime: 39.37s
+2025-03-27 00:01:37,163 - INFO - Expecting Sequence #307
+2025-03-27 00:01:37,164 - INFO - Received Sequence #307 (884 bytes)
+2025-03-27 00:01:37,164 - INFO - Packets Received: 534, Lost Packets: 226, Loss Rate: 42.32%, Uptime: 39.37s
+2025-03-27 00:01:37,165 - INFO - Expecting Sequence #308
+2025-03-27 00:01:37,181 - INFO - Sending Sequence #308 (884 bytes)
+2025-03-27 00:01:37,183 - INFO - Sending Sequence #309 (884 bytes)
+2025-03-27 00:01:37,183 - INFO - Received Sequence #308 (884 bytes)
+2025-03-27 00:01:37,184 - INFO - Packets Received: 535, Lost Packets: 226, Loss Rate: 42.24%, Uptime: 39.39s
+2025-03-27 00:01:37,184 - INFO - Expecting Sequence #309
+2025-03-27 00:01:37,184 - INFO - Received Sequence #309 (884 bytes)
+2025-03-27 00:01:37,185 - INFO - Packets Received: 536, Lost Packets: 226, Loss Rate: 42.16%, Uptime: 39.39s
+2025-03-27 00:01:37,185 - INFO - Expecting Sequence #310
+2025-03-27 00:01:37,202 - INFO - Sending Sequence #310 (884 bytes)
+2025-03-27 00:01:37,203 - INFO - Sending Sequence #311 (884 bytes)
+2025-03-27 00:01:37,203 - INFO - Received Sequence #310 (884 bytes)
+2025-03-27 00:01:37,203 - INFO - Packets Received: 537, Lost Packets: 226, Loss Rate: 42.09%, Uptime: 39.41s
+2025-03-27 00:01:37,203 - INFO - Expecting Sequence #311
+2025-03-27 00:01:37,204 - INFO - Received Sequence #311 (884 bytes)
+2025-03-27 00:01:37,205 - INFO - Packets Received: 538, Lost Packets: 226, Loss Rate: 42.01%, Uptime: 39.41s
+2025-03-27 00:01:37,205 - INFO - Expecting Sequence #312
+2025-03-27 00:01:37,221 - INFO - Sending Sequence #312 (884 bytes)
+2025-03-27 00:01:37,222 - INFO - Sending Sequence #313 (884 bytes)
+2025-03-27 00:01:37,222 - INFO - Received Sequence #312 (884 bytes)
+2025-03-27 00:01:37,223 - INFO - Packets Received: 539, Lost Packets: 226, Loss Rate: 41.93%, Uptime: 39.43s
+2025-03-27 00:01:37,223 - INFO - Expecting Sequence #313
+2025-03-27 00:01:37,223 - INFO - Received Sequence #313 (884 bytes)
+2025-03-27 00:01:37,224 - INFO - Packets Received: 540, Lost Packets: 226, Loss Rate: 41.85%, Uptime: 39.43s
+2025-03-27 00:01:37,224 - INFO - Expecting Sequence #314
+2025-03-27 00:01:37,242 - INFO - Sending Sequence #314 (884 bytes)
+2025-03-27 00:01:37,243 - INFO - Sending Sequence #315 (884 bytes)
+2025-03-27 00:01:37,243 - INFO - Received Sequence #314 (884 bytes)
+2025-03-27 00:01:37,243 - INFO - Packets Received: 541, Lost Packets: 226, Loss Rate: 41.77%, Uptime: 39.45s
+2025-03-27 00:01:37,243 - INFO - Expecting Sequence #315
+2025-03-27 00:01:37,244 - INFO - Received Sequence #315 (884 bytes)
+2025-03-27 00:01:37,244 - INFO - Packets Received: 542, Lost Packets: 226, Loss Rate: 41.70%, Uptime: 39.45s
+2025-03-27 00:01:37,245 - INFO - Expecting Sequence #316
+2025-03-27 00:01:37,261 - INFO - Sending Sequence #316 (884 bytes)
+2025-03-27 00:01:37,263 - INFO - Received Sequence #316 (884 bytes)
+2025-03-27 00:01:37,263 - INFO - Packets Received: 543, Lost Packets: 226, Loss Rate: 41.62%, Uptime: 39.47s
+2025-03-27 00:01:37,264 - INFO - Expecting Sequence #317
+2025-03-27 00:01:37,264 - INFO - Received Sequence #317 (884 bytes)
+2025-03-27 00:01:37,265 - INFO - Packets Received: 544, Lost Packets: 226, Loss Rate: 41.54%, Uptime: 39.47s
+2025-03-27 00:01:37,265 - INFO - Expecting Sequence #318
+2025-03-27 00:01:37,281 - INFO - Exiting the program
