@@ -1,6 +1,6 @@
 # AudioStreamer
 
-## Langkah - Langkah Pengujian
+## Langkah - Langkah Persiapan
 1. Pastikan anda memiliki compiler python untuk menjalankan program
 2. Donlowad pada device anda
    ``` Bash
