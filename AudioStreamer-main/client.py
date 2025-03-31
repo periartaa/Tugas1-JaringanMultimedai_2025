@@ -10,19 +10,6 @@ import wave
 import os
 import threading
 
-# Setup Logging
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("audio_stream.log", mode="w"),  # mode "w" untuk overwrite jika ada
-        logging.StreamHandler()  # Tampilkan juga di console
-    ]
-)
-
-logging.info("Log test: File logging should work.")
-
-
 class AudioClient:
     def __init__(self, protocol='udp', host="localhost", port=12345, size=10):
         self.protocol = protocol

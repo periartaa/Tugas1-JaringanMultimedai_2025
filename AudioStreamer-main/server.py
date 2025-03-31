@@ -7,16 +7,27 @@ import pyaudio
 import sys
 import traceback
 
-# Setup Logging
+import logging
+from logging.handlers import RotatingFileHandler
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("audio_stream.log", mode="w"),  # mode "w" untuk overwrite jika ada
-        logging.StreamHandler()  # Tampilkan juga di console
-    ]
-)
+# Setup Logging dengan RotatingFileHandler
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+
+# Simpan log ke file dengan batasan ukuran 5MB, simpan 3 backup log lama
+file_handler = RotatingFileHandler("audio_stream.log", maxBytes=5*1024*1024, backupCount=3)
+file_handler.setFormatter(formatter)
+
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+logger.info("Logging dimulai...")
+
 
 logging.info("Log test: File logging should work.")
 

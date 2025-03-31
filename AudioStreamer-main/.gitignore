@@ -1,0 +1,8 @@
+# Direktori rekaman
+./Recording
+
+# File audio
+*.wav
+
+# File log
+audio_stream1.log
