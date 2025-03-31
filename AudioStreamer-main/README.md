@@ -26,6 +26,11 @@
    - --port 12345: Port yang digunakan untuk menerima data audio.
    - --size 10: Ukuran buffer dalam milidetik (harus kelipatan 10 antara 10 hingga 150 ms).
    - Contoh :
+   - Run server
      ``` Bash
      python server.py --protocol udp --port 12345 --size 10
+     ```
+   - Run client
+     ``` Bash
+     python client.py --protocol udp --port 12345 --size 10
      ```
