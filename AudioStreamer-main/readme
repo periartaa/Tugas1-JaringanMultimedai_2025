@@ -1,36 +1,42 @@
-Cara Menjalankan Program (Client & Server)
+# Installation steps:
 
-2️⃣ Jalankan Server
-Buka terminal pertama
+```bash
+pip install pyaudio
+```
 
-Jalankan server dengan protokol UDP atau TCP
+### Basic UDP server:
 
-bash
-Copy
-Edit
-python server.py --protocol udp --port 12345
-atau untuk TCP:
-
-bash
-Copy
-Edit
+```bash
 python server.py --protocol tcp --port 12345
-✅ Server akan berjalan dan menunggu koneksi dari client.
+```
 
+Options:
 
-3️⃣ Jalankan Client
-Buka terminal kedua
+--protocol: Choose between 'udp' or 'tcp' (default: udp)
+--port: Specify port number (default: 12345)
+--size: Audio chunk size (10-150, default: 10)
 
-Jalankan client dengan alamat server (default: localhost)
+### Basic UDP client:
 
-bash
-Copy
-Edit
-python client.py --protocol udp --host 127.0.0.1 --port 12345 --size 20
-atau untuk TCP:
+```bash
+python client.py --protocol tcp --port 12345
+```
 
-bash
-Copy
-Edit
-python client.py --protocol tcp --host 127.0.0.1 --port 12345 --size 20
-✅ Client akan mulai mengirimkan audio ke server.
+Options:
+
+--protocol: Choose between 'udp' or 'tcp'
+--host: Server's hostname (default: localhost)
+--port: Server's port (default: 12345)
+--size: Audio chunk size matching server
+
+### Example:
+
+```bash
+python client.py --protocol udp --host localhost --port 12345 --size 10
+```
+
+note
+
+1. membuat audio stream
+2. recorddng client
+3. error handling

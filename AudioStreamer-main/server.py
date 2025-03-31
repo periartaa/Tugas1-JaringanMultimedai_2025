@@ -5,120 +5,173 @@ import argparse
 import signal
 import pyaudio
 import sys
+import traceback
 
 # Setup Logging
+
 logging.basicConfig(
-    filename="audio_stream.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.DEBUG,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("audio_stream.log", mode="w"),  # mode "w" untuk overwrite jika ada
+        logging.StreamHandler()  # Tampilkan juga di console
+    ]
 )
 
-def log_event(event):
-    logging.info(event)
-    print(event)
+logging.info("Log test: File logging should work.")
 
-# Analytics Variables
-packets_received = 0
-lost_packets = 0
-start_time = time.time()
 
-def update_analytics(expected_seq, received_seq):
-    global packets_received, lost_packets
-    packets_received += 1
-    if expected_seq != received_seq:
-        lost_packets += 1
 
-def display_analytics():
-    elapsed_time = time.time() - start_time
-    loss_rate = (lost_packets / packets_received * 100) if packets_received else 0
-    print(f"Packets Received: {packets_received}, Lost Packets: {lost_packets}, Loss Rate: {loss_rate:.2f}%, Uptime: {elapsed_time:.2f}s")
-    logging.info(f"Packets Received: {packets_received}, Lost Packets: {lost_packets}, Loss Rate: {loss_rate:.2f}%, Uptime: {elapsed_time:.2f}s")
+class AdvancedAudioServer:
+    def __init__(self, protocol='udp', port=12345, size=10):
+        self.protocol = protocol
+        self.port = port
+        self.size = size
+        
+        # Audio Configuration
+        self.FORMAT = pyaudio.paInt16
+        self.CHANNELS = 1
+        self.RATE = 44100
+        self.CHUNK = 441  # 10 ms
+        self.NUMCHUNKS = int(self.size / 10)
+        
+        # Variabel untuk tracking
+        self.last_received_sequence = -1
+        self.total_packets = 0
+        self.lost_packets = 0
+        
+        self.setup_socket()
+        self.setup_audio()
 
-# Signal handler
-def handler(signum, frame):
-    global playStream, server_socket
-    log_event("Exiting the program")
-    try:
-        playStream.stop_stream()
-        playStream.close()
-        server_socket.close()
-    except Exception as e:
-        log_event(f"Error during cleanup: {e}")
-    sys.exit(0)
+    def setup_socket(self):
+        try:
+            # Pilih tipe socket berdasarkan protokol
+            socket_type = socket.SOCK_DGRAM if self.protocol == 'udp' else socket.SOCK_STREAM
+            self.server_socket = socket.socket(socket.AF_INET, socket_type)
+            
+            # Izinkan reuse address untuk menghindari konflik port
+            self.server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            
+            # Bind ke semua interface
+            self.server_socket.bind(('0.0.0.0', self.port))
+            
+            # Untuk TCP, listen
+            if self.protocol == 'tcp':
+                self.server_socket.listen(1)
+                logging.info(f"Menunggu koneksi TCP di port {self.port}")
+                self.connection, self.client_address = self.server_socket.accept()
+                logging.info(f"Koneksi dari {self.client_address}")
+            
+            logging.info(f"Server siap dengan protokol {self.protocol}")
+        
+        except Exception as e:
+            logging.error(f"Kesalahan setup socket: {e}")
+            logging.error(traceback.format_exc())
+            sys.exit(1)
 
-signal.signal(signal.SIGINT, handler)
+    def setup_audio(self):
+        try:
+            self.pyaudio = pyaudio.PyAudio()
+            self.audio_stream = self.pyaudio.open(
+                format=self.FORMAT,
+                channels=self.CHANNELS,
+                rate=self.RATE,
+                output=True,
+                frames_per_buffer=self.CHUNK * self.NUMCHUNKS
+            )
+        except Exception as e:
+            logging.error(f"Kesalahan setup audio: {e}")
+            sys.exit(1)
 
-parser = argparse.ArgumentParser(description="AudioStream server")
-parser.add_argument("--protocol", required=False, default='udp', choices=['udp', 'tcp'])
-parser.add_argument("--port", required=False, type=int, default=12345)
-parser.add_argument("--size", required=False, type=int, default=10, choices=range(10, 151, 10))
-args = parser.parse_args()
+    def receive_data(self):
+        try:
+            # Ukuran paket: sequence number (2 byte) + audio data
+            max_packet_size = self.CHUNK * self.NUMCHUNKS * 2 + 2
+            
+            if self.protocol == 'udp':
+                data, client_address = self.server_socket.recvfrom(max_packet_size)
+                logging.debug(f"Terima UDP dari {client_address}")
+            else:
+                data = self.connection.recv(max_packet_size)
+                if not data:
+                    logging.error("Koneksi terputus")
+                    return False
+            
+            # Ekstrak sequence number
+            sequence_number = int.from_bytes(data[:2], byteorder='little')
+            audio_data = data[2:]
+            
+            # Debug sequence number
+            logging.debug(f"Sequence Number: {sequence_number}")
+            logging.debug(f"Panjang data: {len(data)} byte")
+            
+            # Update tracking
+            self.total_packets += 1
+            
+            # Cek urutan
+            if self.last_received_sequence == -1:
+                self.last_received_sequence = sequence_number
+            
+            if sequence_number != self.last_received_sequence + 1:
+                self.lost_packets += 1
+                logging.warning(
+                    f"Paket tidak berurutan! "
+                    f"Terakhir: {self.last_received_sequence}, "
+                    f"Sekarang: {sequence_number}"
+                )
+            
+            # Update last sequence
+            self.last_received_sequence = sequence_number
+            
+            # Putar audio (opsional)
+            self.audio_stream.write(audio_data)
+            
+            # Tampilkan statistik periodik
+            if self.total_packets % 100 == 0:
+                loss_rate = (self.lost_packets / self.total_packets) * 100
+                logging.info(
+                    f"Statistik: Total={self.total_packets}, "
+                    f"Hilang={self.lost_packets}, "
+                    f"Loss Rate={loss_rate:.2f}%"
+                )
+            
+            return True
+        
+        except Exception as e:
+            logging.error(f"Kesalahan menerima data: {e}")
+            logging.error(traceback.format_exc())
+            return False
 
-log_event(f"Server started with Protocol: {args.protocol.upper()}, Port: {args.port}, Size: {args.size} ms")
+    def run(self):
+        logging.info("Server mulai berjalan...")
+        try:
+            while True:
+                if not self.receive_data():
+                    break
+        except KeyboardInterrupt:
+            logging.info("Server dihentikan")
+        finally:
+            # Bersihkan sumber daya
+            if self.protocol == 'tcp':
+                self.connection.close()
+            self.server_socket.close()
+            self.audio_stream.stop_stream()
+            self.audio_stream.close()
+            self.pyaudio.terminate()
 
-FORMAT = pyaudio.paInt16
-CHANNELS = 1
-RATE = 44100
-CHUNK = 441
-NUMCHUNKS = int(args.size / 10)
-silenceData = (0).to_bytes(2) * CHUNK * NUMCHUNKS
+def main():
+    parser = argparse.ArgumentParser(description="Audio Streaming Server")
+    parser.add_argument("--protocol", choices=['udp', 'tcp'], default='udp')
+    parser.add_argument("--port", type=int, default=12345)
+    parser.add_argument("--size", type=int, default=10, choices=range(10, 151, 10))
+    args = parser.parse_args()
 
-try:
-    pyaudioObj = pyaudio.PyAudio()
-    playStream = pyaudioObj.open(format=FORMAT, channels=CHANNELS, rate=RATE, output=True, frames_per_buffer=CHUNK * NUMCHUNKS)
-    log_event("PyAudio Device Initialized")
-except pyaudio.PyAudioError as e:
-    log_event(f"PyAudio Error: {e}")
-    sys.exit(1)
+    server = AdvancedAudioServer(
+        protocol=args.protocol, 
+        port=args.port, 
+        size=args.size
+    )
+    server.run()
 
-try:
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM if args.protocol == 'udp' else socket.SOCK_STREAM)
-    server_socket.bind(('', args.port))
-    if args.protocol == 'tcp':
-        server_socket.listen()
-        connection, source = server_socket.accept()
-        log_event(f"TCP Connection established with {source}")
-except socket.error as e:
-    log_event(f"Socket Error: {e}")
-    sys.exit(1)
-
-expectedSeqNum = 0
-
-def recvData():
-    global expectedSeqNum
-    try:
-        log_event(f"Expecting Sequence #{expectedSeqNum}")
-
-        if args.protocol == 'udp':
-            data, _ = server_socket.recvfrom(CHUNK * NUMCHUNKS * 2 + 2)
-        else:
-            data = connection.recv(CHUNK * NUMCHUNKS * 2 + 2)
-            while len(data) < CHUNK * NUMCHUNKS * 2 + 2:
-                chunk = connection.recv(CHUNK * NUMCHUNKS * 2 + 2 - len(data))
-                if not chunk:
-                    raise socket.error("Connection closed by client")
-                data += chunk
-
-        sequenceNumber = int.from_bytes(data[:2], byteorder="little", signed=False)
-        audioData = data[2:]
-
-        update_analytics(expectedSeqNum, sequenceNumber)
-
-        if expectedSeqNum == sequenceNumber:
-            log_event(f"Received Sequence #{sequenceNumber} ({len(data)} bytes)")
-            playStream.write(audioData)
-            expectedSeqNum = (expectedSeqNum + 1) % 65536
-        else:
-            log_event(f"Out of sequence! Expected {expectedSeqNum}, got {sequenceNumber}")
-            playStream.write(silenceData)
-            if sequenceNumber > expectedSeqNum:
-                expectedSeqNum = sequenceNumber + 1
-    except socket.error as e:
-        log_event(f"Socket Error while receiving: {e}")
-    except Exception as e:
-        log_event(f"Unexpected Error: {e}")
-
-while True:
-    recvData()
-    if time.time() - start_time > 10:
-        display_analytics()
+if __name__ == "__main__":
+    main()
