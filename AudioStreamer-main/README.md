@@ -11,3 +11,21 @@
    pip install pyaudio
    ```
 5. Jalankan program "server.py" & "client.py"
+
+
+## Langkah Run Program
+1. Jalankan skrip
+2. Anda bisa menggunakan perintah:
+   ``` Bash
+   python nama_file.py --protocol udp --port 12345 --size 10
+   ```
+
+   Keterangan :
+   - nama_file.py --> Ubah sesaui nama file yag akan djalankan
+   - --protocol udp --> Menentukan apakah server menggunakan UDP atau TCP. Default: udp
+   - --port 12345: Port yang digunakan untuk menerima data audio.
+   - --size 10: Ukuran buffer dalam milidetik (harus kelipatan 10 antara 10 hingga 150 ms).
+   - Contoh :
+     ``` Bash
+     python server.py --protocol udp --port 12345 --size 10
+     ```
